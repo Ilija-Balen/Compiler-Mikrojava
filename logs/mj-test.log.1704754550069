@@ -1,0 +1,236 @@
+INFO  23:55:25,170 - Compiling source file: C:\Users\Ilija\Desktop\PP1\PP_PROJEKAT\pp1Domaci\workspace\MJCompiler\test\program.mj
+INFO  23:55:25,205 - #2 program
+INFO  23:55:25,205 - #46 test301
+INFO  23:55:25,205 - #9 namespace
+INFO  23:55:25,206 - #46 Konstante
+INFO  23:55:25,206 - #3 {
+INFO  23:55:25,207 - #19 const
+INFO  23:55:25,207 - #46 int
+INFO  23:55:25,207 - #46 nula
+INFO  23:55:25,207 - #20 =
+INFO  23:55:25,207 - #45 0
+INFO  23:55:25,208 - #21 ;
+INFO  23:55:25,208 - #19 const
+INFO  23:55:25,208 - #46 int
+INFO  23:55:25,208 - #46 jedan
+INFO  23:55:25,208 - #20 =
+INFO  23:55:25,209 - #45 1
+INFO  23:55:25,209 - #21 ;
+INFO  23:55:25,209 - #19 const
+INFO  23:55:25,209 - #46 int
+INFO  23:55:25,209 - #46 pet
+INFO  23:55:25,209 - #20 =
+INFO  23:55:25,209 - #45 5
+INFO  23:55:25,209 - #21 ;
+INFO  23:55:25,209 - #3 {
+INFO  23:55:25,209 - #4 }
+INFO  23:55:25,210 - #4 }
+INFO  23:55:25,210 - #9 namespace
+INFO  23:55:25,210 - #46 Nizovi
+INFO  23:55:25,210 - #3 {
+INFO  23:55:25,210 - #46 int
+INFO  23:55:25,210 - #46 niz
+INFO  23:55:25,210 - #5 [
+INFO  23:55:25,210 - #6 ]
+INFO  23:55:25,210 - #21 ;
+INFO  23:55:25,211 - #46 int
+INFO  23:55:25,211 - #46 nizch
+INFO  23:55:25,211 - #5 [
+INFO  23:55:25,211 - #6 ]
+INFO  23:55:25,211 - #21 ;
+INFO  23:55:25,211 - #3 {
+INFO  23:55:25,211 - #4 }
+INFO  23:55:25,211 - #4 }
+INFO  23:55:25,211 - #3 {
+INFO  23:55:25,211 - #10 void
+INFO  23:55:25,211 - #46 main
+INFO  23:55:25,211 - #11 (
+INFO  23:55:25,212 - #12 )
+INFO  23:55:25,212 - #3 {
+INFO  23:55:25,212 - #46 Nizovi
+INFO  23:55:25,213 - #22 :
+INFO  23:55:25,213 - #22 :
+INFO  23:55:25,213 - #46 nizch
+INFO  23:55:25,213 - #20 =
+INFO  23:55:25,213 - #34 new
+INFO  23:55:25,214 - #46 int
+INFO  23:55:25,214 - #5 [
+INFO  23:55:25,214 - #45 3
+INFO  23:55:25,214 - #6 ]
+INFO  23:55:25,216 - #21 ;
+INFO  23:55:25,216 - #4 }
+INFO  23:55:25,216 - #4 }
+INFO  23:55:25,225 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  NamesList(
+    NamesList(
+      NoNamesList(
+      ) [NoNamesList]
+      Names(
+        NamespaceName(
+         Konstante
+        ) [NamespaceName]
+        CDecl(
+          CDecl(
+            CDecl(
+              NoCVC(
+              ) [NoCVC]
+              ConstDeclarations(
+                IType(
+                  IdType(
+                   int
+                  ) [IdType]
+                ) [IType]
+               nula
+                NCBNumConst(
+                 0
+                ) [NCBNumConst]
+                NoNCBLists(
+                ) [NoNCBLists]
+              ) [ConstDeclarations]
+            ) [CDecl]
+            ConstDeclarations(
+              IType(
+                IdType(
+                 int
+                ) [IdType]
+              ) [IType]
+             jedan
+              NCBNumConst(
+               1
+              ) [NCBNumConst]
+              NoNCBLists(
+              ) [NoNCBLists]
+            ) [ConstDeclarations]
+          ) [CDecl]
+          ConstDeclarations(
+            IType(
+              IdType(
+               int
+              ) [IdType]
+            ) [IType]
+           pet
+            NCBNumConst(
+             5
+            ) [NCBNumConst]
+            NoNCBLists(
+            ) [NoNCBLists]
+          ) [ConstDeclarations]
+        ) [CDecl]
+        NoMethDecl(
+        ) [NoMethDecl]
+      ) [Names]
+    ) [NamesList]
+    Names(
+      NamespaceName(
+       Nizovi
+      ) [NamespaceName]
+      VDecl(
+        VDecl(
+          NoCVC(
+          ) [NoCVC]
+          VarDeclaration(
+            IType(
+              IdType(
+               int
+              ) [IdType]
+            ) [IType]
+            VarElemArray(
+             niz
+            ) [VarElemArray]
+            NoCISLists(
+            ) [NoCISLists]
+          ) [VarDeclaration]
+        ) [VDecl]
+        VarDeclaration(
+          IType(
+            IdType(
+             int
+            ) [IdType]
+          ) [IType]
+          VarElemArray(
+           nizch
+          ) [VarElemArray]
+          NoCISLists(
+          ) [NoCISLists]
+        ) [VarDeclaration]
+      ) [VDecl]
+      NoMethDecl(
+      ) [NoMethDecl]
+    ) [Names]
+  ) [NamesList]
+  NoCVC(
+  ) [NoCVC]
+  MethDeclList(
+    NoMethDecl(
+    ) [NoMethDecl]
+    MethDecl(
+      TVvoid(
+       main
+      ) [TVvoid]
+      NoFormParsOccured(
+      ) [NoFormParsOccured]
+      NoVarDeclRepeat(
+      ) [NoVarDeclRepeat]
+      StmtListRepeat(
+        NoStmtListRepeat(
+        ) [NoStmtListRepeat]
+        StatementDesignatorStatement(
+          DesignatorStmtAss(
+            DesignatorIdentDoubleOccured(
+             Nizovi
+             nizch
+              NoIdentExpr(
+              ) [NoIdentExpr]
+            ) [DesignatorIdentDoubleOccured]
+            AssEQUAL(
+            ) [AssEQUAL]
+            ExprTerm(
+              Term(
+                FactorType(
+                  IType(
+                    IdType(
+                     int
+                    ) [IdType]
+                  ) [IType]
+                  ExprTerm(
+                    Term(
+                      FactorNumConst(
+                        NumConst(
+                         3
+                        ) [NumConst]
+                      ) [FactorNumConst]
+                      NoMulopFactorLists(
+                      ) [NoMulopFactorLists]
+                    ) [Term]
+                    NoAddopTermList(
+                    ) [NoAddopTermList]
+                  ) [ExprTerm]
+                ) [FactorType]
+                NoMulopFactorLists(
+                ) [NoMulopFactorLists]
+              ) [Term]
+              NoAddopTermList(
+              ) [NoAddopTermList]
+            ) [ExprTerm]
+          ) [DesignatorStmtAss]
+        ) [StatementDesignatorStatement]
+      ) [StmtListRepeat]
+    ) [MethDecl]
+  ) [MethDeclList]
+) [Program]
+INFO  23:55:25,226 - ===================================
+INFO  23:55:25,228 - Deklairsan namespace : Konstante na liniji 5
+INFO  23:55:25,228 - deklarisana konstanta nula sa vrednosti 0 na liniji 6 na liniji 6
+INFO  23:55:25,228 - deklarisana konstanta jedan sa vrednosti 1 na liniji 7 na liniji 7
+INFO  23:55:25,228 - deklarisana konstanta pet sa vrednosti 5 na liniji 8 na liniji 8
+INFO  23:55:25,230 - Deklairsan namespace : Nizovi na liniji 13
+INFO  23:55:25,230 - Tip arrType: 1 na liniji 14
+INFO  23:55:25,230 - Deklairsana promenljiva : niz na liniji 14
+INFO  23:55:25,230 - Tip arrType: 1 na liniji 15
+INFO  23:55:25,231 - Deklairsana promenljiva : nizch na liniji 15
+INFO  23:55:25,231 - Deklairsana metoda : main na liniji 22
+INFO  23:55:25,231 - =====================================
+INFO  23:55:25,235 - Parsiranje uspesno zavrseno!

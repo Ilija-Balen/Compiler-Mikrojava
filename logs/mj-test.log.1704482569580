@@ -1,0 +1,180 @@
+INFO  20:21:08,106 - Compiling source file: C:\Users\Ilija\Desktop\PP1\PP_PROJEKAT\pp1Domaci\workspace\MJCompiler\test\program.mj
+INFO  20:21:08,168 - #2 program
+INFO  20:21:08,168 - #46 test301
+INFO  20:21:08,168 - #9 namespace
+INFO  20:21:08,170 - #46 Konstante
+INFO  20:21:08,170 - #3 {
+INFO  20:21:08,170 - #19 const
+INFO  20:21:08,170 - #46 int
+INFO  20:21:08,170 - #46 jedan
+INFO  20:21:08,171 - #20 =
+INFO  20:21:08,171 - #45 1
+INFO  20:21:08,171 - #21 ;
+INFO  20:21:08,171 - #3 {
+INFO  20:21:08,172 - #4 }
+INFO  20:21:08,172 - #4 }
+INFO  20:21:08,173 - #3 {
+INFO  20:21:08,173 - #10 void
+INFO  20:21:08,173 - #46 main
+INFO  20:21:08,173 - #11 (
+INFO  20:21:08,173 - #12 )
+INFO  20:21:08,174 - #46 int
+INFO  20:21:08,175 - #46 bodovi
+INFO  20:21:08,175 - #21 ;
+INFO  20:21:08,176 - #3 {
+INFO  20:21:08,176 - #46 bodovi
+INFO  20:21:08,177 - #20 =
+INFO  20:21:08,177 - #45 0
+INFO  20:21:08,178 - #21 ;
+INFO  20:21:08,181 - #46 bodovi
+INFO  20:21:08,181 - #20 =
+INFO  20:21:08,181 - #46 bodovi
+INFO  20:21:08,181 - #35 +
+INFO  20:21:08,182 - #46 Konstante
+INFO  20:21:08,183 - #22 :
+INFO  20:21:08,183 - #22 :
+INFO  20:21:08,183 - #46 jedan
+INFO  20:21:08,183 - #21 ;
+INFO  20:21:08,184 - #4 }
+INFO  20:21:08,184 - #4 }
+INFO  20:21:08,191 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  NamesList(
+    NoNamesList(
+    ) [NoNamesList]
+    Names(
+     Konstante
+      CDecl(
+        NoCVC(
+        ) [NoCVC]
+        ConstDeclarations(
+          IType(
+            IdType(
+             int
+            ) [IdType]
+          ) [IType]
+         jedan
+          NCBNumConst(
+           1
+          ) [NCBNumConst]
+          NoNCBLists(
+          ) [NoNCBLists]
+        ) [ConstDeclarations]
+      ) [CDecl]
+      NoMethDecl(
+      ) [NoMethDecl]
+    ) [Names]
+  ) [NamesList]
+  NoCVC(
+  ) [NoCVC]
+  MethDeclList(
+    NoMethDecl(
+    ) [NoMethDecl]
+    MethDecl(
+      TVvoid(
+       main
+      ) [TVvoid]
+      NoFormParsOccured(
+      ) [NoFormParsOccured]
+      VarDeclRepeat(
+        NoVarDeclRepeat(
+        ) [NoVarDeclRepeat]
+        VarDeclaration(
+          IType(
+            IdType(
+             int
+            ) [IdType]
+          ) [IType]
+          VarElemIdent(
+           bodovi
+          ) [VarElemIdent]
+          NoCISLists(
+          ) [NoCISLists]
+        ) [VarDeclaration]
+      ) [VarDeclRepeat]
+      StmtListRepeat(
+        StmtListRepeat(
+          NoStmtListRepeat(
+          ) [NoStmtListRepeat]
+          StatementDesignatorStatement(
+            DesignatorStmtAss(
+              DesignatorNoIdentDoubleOccured(
+               bodovi
+                NoIdentExpr(
+                ) [NoIdentExpr]
+              ) [DesignatorNoIdentDoubleOccured]
+              AssEQUAL(
+              ) [AssEQUAL]
+              ExprTerm(
+                Term(
+                  FactorNumConst(
+                    NumConst(
+                     0
+                    ) [NumConst]
+                  ) [FactorNumConst]
+                  NoMulopFactorLists(
+                  ) [NoMulopFactorLists]
+                ) [Term]
+                NoAddopTermList(
+                ) [NoAddopTermList]
+              ) [ExprTerm]
+            ) [DesignatorStmtAss]
+          ) [StatementDesignatorStatement]
+        ) [StmtListRepeat]
+        StatementDesignatorStatement(
+          DesignatorStmtAss(
+            DesignatorNoIdentDoubleOccured(
+             bodovi
+              NoIdentExpr(
+              ) [NoIdentExpr]
+            ) [DesignatorNoIdentDoubleOccured]
+            AssEQUAL(
+            ) [AssEQUAL]
+            ExprTerm(
+              Term(
+                FactorDesignator(
+                  DesignatorNoIdentDoubleOccured(
+                   bodovi
+                    NoIdentExpr(
+                    ) [NoIdentExpr]
+                  ) [DesignatorNoIdentDoubleOccured]
+                  NoBracketActPars(
+                  ) [NoBracketActPars]
+                ) [FactorDesignator]
+                NoMulopFactorLists(
+                ) [NoMulopFactorLists]
+              ) [Term]
+              AddopTermLists(
+                NoAddopTermList(
+                ) [NoAddopTermList]
+                AddopPLUS(
+                ) [AddopPLUS]
+                Term(
+                  FactorDesignator(
+                    DesignatorIdentDoubleOccured(
+                     Konstante
+                     jedan
+                      NoIdentExpr(
+                      ) [NoIdentExpr]
+                    ) [DesignatorIdentDoubleOccured]
+                    NoBracketActPars(
+                    ) [NoBracketActPars]
+                  ) [FactorDesignator]
+                  NoMulopFactorLists(
+                  ) [NoMulopFactorLists]
+                ) [Term]
+              ) [AddopTermLists]
+            ) [ExprTerm]
+          ) [DesignatorStmtAss]
+        ) [StatementDesignatorStatement]
+      ) [StmtListRepeat]
+    ) [MethDecl]
+  ) [MethDeclList]
+) [Program]
+INFO  20:21:08,192 - ===================================
+INFO  20:21:08,216 - deklarisana konstanta jedan sa vrednosti 1 na liniji 6 na liniji 6
+INFO  20:21:08,216 - Deklairsan namespace : Konstante na liniji 5
+INFO  20:21:08,216 - Deklairsana metoda : main na liniji 12
+INFO  20:21:08,216 - Deklairsana promenljiva : bodovi na liniji 13

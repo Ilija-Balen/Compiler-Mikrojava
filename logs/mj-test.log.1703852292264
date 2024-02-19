@@ -1,0 +1,43 @@
+INFO  13:17:54,036 - Compiling source file: C:\Users\Ilija\Desktop\PP1\PP_PROJEKAT\pp1Domaci\workspace\MJCompiler\test\program.mj
+INFO  13:17:54,069 - #2 program
+INFO  13:17:54,069 - #46 p
+INFO  13:17:54,069 - #19 const
+INFO  13:17:54,070 - #46 int
+INFO  13:17:54,070 - #46 row
+INFO  13:17:54,070 - #20 =
+INFO  13:17:54,070 - #45 5
+INFO  13:17:54,070 - #21 ;
+INFO  13:17:54,071 - #3 {
+INFO  13:17:54,071 - #4 }
+INFO  13:17:54,078 - Programs(
+ p
+  NoNamesList(
+  ) [NoNamesList]
+  CDecl(
+    NoCVC(
+    ) [NoCVC]
+    ConstDeclarations(
+      IType(
+        IdType(
+         int
+        ) [IdType]
+      ) [IType]
+     row
+      NCBNumConst(
+        NumConst(
+         5
+        ) [NumConst]
+      ) [NCBNumConst]
+      NoNCBLists(
+      ) [NoNCBLists]
+    ) [ConstDeclarations]
+  ) [CDecl]
+  NoMethDecl(
+  ) [NoMethDecl]
+) [Programs]
+INFO  13:17:54,079 - ===================================
+INFO  13:17:54,082 -  konstanta row tipa :IType(
+  IdType(
+   int
+  ) [IdType]
+) [IType] na liniji 2 na liniji 2

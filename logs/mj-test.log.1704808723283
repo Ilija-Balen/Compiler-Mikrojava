@@ -1,0 +1,1570 @@
+INFO  14:42:06,947 - Compiling source file: C:\Users\Ilija\Desktop\PP1\PP_PROJEKAT\pp1Domaci\workspace\MJCompiler\test\program.mj
+INFO  14:42:06,982 - #2 program
+INFO  14:42:06,982 - #46 test301
+INFO  14:42:06,982 - #9 namespace
+INFO  14:42:06,983 - #46 Konstante
+INFO  14:42:06,983 - #3 {
+INFO  14:42:06,983 - #19 const
+INFO  14:42:06,984 - #46 int
+INFO  14:42:06,984 - #46 nula
+INFO  14:42:06,984 - #20 =
+INFO  14:42:06,984 - #45 0
+INFO  14:42:06,984 - #21 ;
+INFO  14:42:06,984 - #19 const
+INFO  14:42:06,985 - #46 int
+INFO  14:42:06,985 - #46 jedan
+INFO  14:42:06,985 - #20 =
+INFO  14:42:06,985 - #45 1
+INFO  14:42:06,985 - #21 ;
+INFO  14:42:06,985 - #19 const
+INFO  14:42:06,985 - #46 int
+INFO  14:42:06,985 - #46 pet
+INFO  14:42:06,985 - #20 =
+INFO  14:42:06,986 - #45 5
+INFO  14:42:06,986 - #21 ;
+INFO  14:42:06,986 - #3 {
+INFO  14:42:06,986 - #4 }
+INFO  14:42:06,986 - #4 }
+INFO  14:42:06,986 - #9 namespace
+INFO  14:42:06,986 - #46 Nizovi
+INFO  14:42:06,986 - #3 {
+INFO  14:42:06,986 - #46 int
+INFO  14:42:06,986 - #46 niz
+INFO  14:42:06,987 - #5 [
+INFO  14:42:06,987 - #6 ]
+INFO  14:42:06,987 - #21 ;
+INFO  14:42:06,987 - #46 char
+INFO  14:42:06,987 - #46 nizch
+INFO  14:42:06,987 - #5 [
+INFO  14:42:06,987 - #6 ]
+INFO  14:42:06,987 - #21 ;
+INFO  14:42:06,987 - #3 {
+INFO  14:42:06,987 - #4 }
+INFO  14:42:06,987 - #4 }
+INFO  14:42:06,988 - #46 int
+INFO  14:42:06,988 - #46 a
+INFO  14:42:06,988 - #21 ;
+INFO  14:42:06,988 - #3 {
+INFO  14:42:06,988 - #10 void
+INFO  14:42:06,988 - #46 main
+INFO  14:42:06,988 - #11 (
+INFO  14:42:06,988 - #12 )
+INFO  14:42:06,988 - #46 int
+INFO  14:42:06,989 - #46 bodovi
+INFO  14:42:06,989 - #21 ;
+INFO  14:42:06,989 - #46 bool
+INFO  14:42:06,989 - #46 bt
+INFO  14:42:06,989 - #21 ;
+INFO  14:42:06,989 - #3 {
+INFO  14:42:06,989 - #46 bodovi
+INFO  14:42:06,990 - #20 =
+INFO  14:42:06,990 - #45 0
+INFO  14:42:06,991 - #21 ;
+INFO  14:42:06,992 - #46 bodovi
+INFO  14:42:06,992 - #29 ++
+INFO  14:42:06,993 - #21 ;
+INFO  14:42:06,993 - #46 bodovi
+INFO  14:42:06,993 - #20 =
+INFO  14:42:06,993 - #46 bodovi
+INFO  14:42:06,993 - #35 +
+INFO  14:42:06,993 - #46 Konstante
+INFO  14:42:06,994 - #22 :
+INFO  14:42:06,994 - #22 :
+INFO  14:42:06,994 - #46 jedan
+INFO  14:42:06,994 - #21 ;
+INFO  14:42:06,994 - #46 bodovi
+INFO  14:42:06,994 - #20 =
+INFO  14:42:06,994 - #46 bodovi
+INFO  14:42:06,994 - #36 *
+INFO  14:42:06,994 - #46 Konstante
+INFO  14:42:06,995 - #22 :
+INFO  14:42:06,995 - #22 :
+INFO  14:42:06,995 - #46 pet
+INFO  14:42:06,995 - #21 ;
+INFO  14:42:06,995 - #46 bodovi
+INFO  14:42:06,995 - #30 --
+INFO  14:42:06,995 - #21 ;
+INFO  14:42:06,996 - #28 print
+INFO  14:42:06,996 - #11 (
+INFO  14:42:06,996 - #46 bodovi
+INFO  14:42:06,996 - #12 )
+INFO  14:42:06,996 - #21 ;
+INFO  14:42:06,996 - #46 Nizovi
+INFO  14:42:06,996 - #22 :
+INFO  14:42:06,996 - #22 :
+INFO  14:42:06,996 - #46 niz
+INFO  14:42:06,996 - #20 =
+INFO  14:42:06,996 - #34 new
+INFO  14:42:06,996 - #46 int
+INFO  14:42:06,996 - #5 [
+INFO  14:42:06,996 - #45 3
+INFO  14:42:06,997 - #6 ]
+INFO  14:42:06,997 - #21 ;
+INFO  14:42:06,997 - #46 Nizovi
+INFO  14:42:06,997 - #22 :
+INFO  14:42:06,997 - #22 :
+INFO  14:42:06,997 - #46 niz
+INFO  14:42:06,997 - #5 [
+INFO  14:42:06,997 - #46 Konstante
+INFO  14:42:06,997 - #22 :
+INFO  14:42:06,997 - #22 :
+INFO  14:42:06,997 - #46 nula
+INFO  14:42:06,997 - #6 ]
+INFO  14:42:06,997 - #20 =
+INFO  14:42:06,997 - #46 Konstante
+INFO  14:42:06,997 - #22 :
+INFO  14:42:06,997 - #22 :
+INFO  14:42:06,997 - #46 jedan
+INFO  14:42:06,997 - #21 ;
+INFO  14:42:06,997 - #46 Nizovi
+INFO  14:42:06,997 - #22 :
+INFO  14:42:06,997 - #22 :
+INFO  14:42:06,998 - #46 niz
+INFO  14:42:06,998 - #5 [
+INFO  14:42:06,998 - #45 1
+INFO  14:42:06,998 - #6 ]
+INFO  14:42:06,998 - #20 =
+INFO  14:42:06,998 - #45 2
+INFO  14:42:06,998 - #21 ;
+INFO  14:42:06,998 - #46 Nizovi
+INFO  14:42:06,998 - #22 :
+INFO  14:42:06,998 - #22 :
+INFO  14:42:06,998 - #46 niz
+INFO  14:42:06,998 - #5 [
+INFO  14:42:07,000 - #46 Nizovi
+INFO  14:42:07,000 - #22 :
+INFO  14:42:07,000 - #22 :
+INFO  14:42:07,000 - #46 niz
+INFO  14:42:07,000 - #5 [
+INFO  14:42:07,000 - #46 Konstante
+INFO  14:42:07,000 - #22 :
+INFO  14:42:07,000 - #22 :
+INFO  14:42:07,000 - #46 jedan
+INFO  14:42:07,000 - #6 ]
+INFO  14:42:07,000 - #6 ]
+INFO  14:42:07,000 - #20 =
+INFO  14:42:07,000 - #46 Nizovi
+INFO  14:42:07,000 - #22 :
+INFO  14:42:07,000 - #22 :
+INFO  14:42:07,000 - #46 niz
+INFO  14:42:07,000 - #5 [
+INFO  14:42:07,001 - #46 Nizovi
+INFO  14:42:07,001 - #22 :
+INFO  14:42:07,001 - #22 :
+INFO  14:42:07,001 - #46 niz
+INFO  14:42:07,001 - #5 [
+INFO  14:42:07,001 - #45 0
+INFO  14:42:07,001 - #6 ]
+INFO  14:42:07,001 - #6 ]
+INFO  14:42:07,001 - #36 *
+INFO  14:42:07,001 - #45 3
+INFO  14:42:07,001 - #21 ;
+INFO  14:42:07,001 - #46 bodovi
+INFO  14:42:07,001 - #20 =
+INFO  14:42:07,001 - #46 Nizovi
+INFO  14:42:07,001 - #22 :
+INFO  14:42:07,001 - #22 :
+INFO  14:42:07,001 - #46 niz
+INFO  14:42:07,001 - #5 [
+INFO  14:42:07,001 - #45 2
+INFO  14:42:07,001 - #6 ]
+INFO  14:42:07,001 - #37 /
+INFO  14:42:07,001 - #46 Nizovi
+INFO  14:42:07,002 - #22 :
+INFO  14:42:07,002 - #22 :
+INFO  14:42:07,002 - #46 niz
+INFO  14:42:07,002 - #5 [
+INFO  14:42:07,002 - #45 0
+INFO  14:42:07,002 - #6 ]
+INFO  14:42:07,002 - #21 ;
+INFO  14:42:07,002 - #28 print
+INFO  14:42:07,002 - #11 (
+INFO  14:42:07,002 - #46 bodovi
+INFO  14:42:07,002 - #12 )
+INFO  14:42:07,002 - #21 ;
+INFO  14:42:07,002 - #28 print
+INFO  14:42:07,002 - #11 (
+INFO  14:42:07,002 - #46 Nizovi
+INFO  14:42:07,002 - #22 :
+INFO  14:42:07,002 - #22 :
+INFO  14:42:07,002 - #46 niz
+INFO  14:42:07,002 - #5 [
+INFO  14:42:07,002 - #45 2
+INFO  14:42:07,003 - #6 ]
+INFO  14:42:07,003 - #12 )
+INFO  14:42:07,003 - #21 ;
+INFO  14:42:07,003 - #46 Nizovi
+INFO  14:42:07,003 - #22 :
+INFO  14:42:07,003 - #22 :
+INFO  14:42:07,003 - #46 nizch
+INFO  14:42:07,003 - #20 =
+INFO  14:42:07,003 - #34 new
+INFO  14:42:07,003 - #46 char
+INFO  14:42:07,003 - #5 [
+INFO  14:42:07,003 - #45 3
+INFO  14:42:07,003 - #6 ]
+INFO  14:42:07,003 - #21 ;
+INFO  14:42:07,003 - #46 Nizovi
+INFO  14:42:07,003 - #22 :
+INFO  14:42:07,003 - #22 :
+INFO  14:42:07,003 - #46 nizch
+INFO  14:42:07,003 - #5 [
+INFO  14:42:07,003 - #45 0
+INFO  14:42:07,003 - #6 ]
+INFO  14:42:07,003 - #20 =
+INFO  14:42:07,003 - #47 a
+INFO  14:42:07,003 - #21 ;
+INFO  14:42:07,004 - #46 Nizovi
+INFO  14:42:07,004 - #22 :
+INFO  14:42:07,004 - #22 :
+INFO  14:42:07,004 - #46 nizch
+INFO  14:42:07,004 - #5 [
+INFO  14:42:07,004 - #46 Konstante
+INFO  14:42:07,004 - #22 :
+INFO  14:42:07,004 - #22 :
+INFO  14:42:07,004 - #46 jedan
+INFO  14:42:07,004 - #6 ]
+INFO  14:42:07,004 - #20 =
+INFO  14:42:07,004 - #47 b
+INFO  14:42:07,004 - #21 ;
+INFO  14:42:07,004 - #46 Nizovi
+INFO  14:42:07,004 - #22 :
+INFO  14:42:07,004 - #22 :
+INFO  14:42:07,004 - #46 nizch
+INFO  14:42:07,004 - #5 [
+INFO  14:42:07,004 - #46 Konstante
+INFO  14:42:07,004 - #22 :
+INFO  14:42:07,004 - #22 :
+INFO  14:42:07,005 - #46 pet
+INFO  14:42:07,005 - #33 -
+INFO  14:42:07,005 - #45 3
+INFO  14:42:07,005 - #6 ]
+INFO  14:42:07,005 - #20 =
+INFO  14:42:07,005 - #47 c
+INFO  14:42:07,005 - #21 ;
+INFO  14:42:07,005 - #28 print
+INFO  14:42:07,005 - #11 (
+INFO  14:42:07,005 - #46 Nizovi
+INFO  14:42:07,005 - #22 :
+INFO  14:42:07,005 - #22 :
+INFO  14:42:07,005 - #46 nizch
+INFO  14:42:07,005 - #5 [
+INFO  14:42:07,005 - #45 1
+INFO  14:42:07,005 - #6 ]
+INFO  14:42:07,005 - #12 )
+INFO  14:42:07,005 - #21 ;
+INFO  14:42:07,007 - #28 print
+INFO  14:42:07,007 - #11 (
+INFO  14:42:07,007 - #46 Nizovi
+INFO  14:42:07,007 - #22 :
+INFO  14:42:07,007 - #22 :
+INFO  14:42:07,007 - #46 nizch
+INFO  14:42:07,007 - #5 [
+INFO  14:42:07,007 - #46 Konstante
+INFO  14:42:07,007 - #22 :
+INFO  14:42:07,007 - #22 :
+INFO  14:42:07,007 - #46 jedan
+INFO  14:42:07,007 - #36 *
+INFO  14:42:07,007 - #45 2
+INFO  14:42:07,007 - #6 ]
+INFO  14:42:07,007 - #12 )
+INFO  14:42:07,007 - #21 ;
+INFO  14:42:07,007 - #46 a
+INFO  14:42:07,007 - #20 =
+INFO  14:42:07,007 - #45 1
+INFO  14:42:07,007 - #21 ;
+INFO  14:42:07,007 - #27 read
+INFO  14:42:07,007 - #11 (
+INFO  14:42:07,008 - #46 bodovi
+INFO  14:42:07,008 - #12 )
+INFO  14:42:07,008 - #21 ;
+INFO  14:42:07,008 - #46 bodovi
+INFO  14:42:07,008 - #20 =
+INFO  14:42:07,008 - #33 -
+INFO  14:42:07,008 - #46 bodovi
+INFO  14:42:07,008 - #35 +
+INFO  14:42:07,008 - #11 (
+INFO  14:42:07,008 - #46 Konstante
+INFO  14:42:07,008 - #22 :
+INFO  14:42:07,008 - #22 :
+INFO  14:42:07,008 - #46 pet
+INFO  14:42:07,008 - #36 *
+INFO  14:42:07,008 - #46 a
+INFO  14:42:07,008 - #37 /
+INFO  14:42:07,008 - #45 2
+INFO  14:42:07,008 - #33 -
+INFO  14:42:07,008 - #46 Konstante
+INFO  14:42:07,008 - #22 :
+INFO  14:42:07,008 - #22 :
+INFO  14:42:07,008 - #46 jedan
+INFO  14:42:07,008 - #12 )
+INFO  14:42:07,008 - #36 *
+INFO  14:42:07,008 - #46 bodovi
+INFO  14:42:07,008 - #33 -
+INFO  14:42:07,009 - #11 (
+INFO  14:42:07,009 - #45 3
+INFO  14:42:07,009 - #38 %
+INFO  14:42:07,009 - #45 2
+INFO  14:42:07,009 - #35 +
+INFO  14:42:07,009 - #45 3
+INFO  14:42:07,009 - #36 *
+INFO  14:42:07,009 - #45 2
+INFO  14:42:07,009 - #33 -
+INFO  14:42:07,009 - #45 3
+INFO  14:42:07,009 - #12 )
+INFO  14:42:07,009 - #21 ;
+INFO  14:42:07,009 - #28 print
+INFO  14:42:07,010 - #11 (
+INFO  14:42:07,010 - #46 bodovi
+INFO  14:42:07,010 - #12 )
+INFO  14:42:07,010 - #21 ;
+INFO  14:42:07,010 - #4 }
+INFO  14:42:07,010 - #4 }
+INFO  14:42:07,019 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  NamesList(
+    NamesList(
+      NoNamesList(
+      ) [NoNamesList]
+      Names(
+        NamespaceName(
+         Konstante
+        ) [NamespaceName]
+        CDecl(
+          CDecl(
+            CDecl(
+              NoCVC(
+              ) [NoCVC]
+              ConstDeclarations(
+                IType(
+                  IdType(
+                   int
+                  ) [IdType]
+                ) [IType]
+               nula
+                NCBNumConst(
+                 0
+                ) [NCBNumConst]
+                NoNCBLists(
+                ) [NoNCBLists]
+              ) [ConstDeclarations]
+            ) [CDecl]
+            ConstDeclarations(
+              IType(
+                IdType(
+                 int
+                ) [IdType]
+              ) [IType]
+             jedan
+              NCBNumConst(
+               1
+              ) [NCBNumConst]
+              NoNCBLists(
+              ) [NoNCBLists]
+            ) [ConstDeclarations]
+          ) [CDecl]
+          ConstDeclarations(
+            IType(
+              IdType(
+               int
+              ) [IdType]
+            ) [IType]
+           pet
+            NCBNumConst(
+             5
+            ) [NCBNumConst]
+            NoNCBLists(
+            ) [NoNCBLists]
+          ) [ConstDeclarations]
+        ) [CDecl]
+        NoMethDecl(
+        ) [NoMethDecl]
+      ) [Names]
+    ) [NamesList]
+    Names(
+      NamespaceName(
+       Nizovi
+      ) [NamespaceName]
+      VDecl(
+        VDecl(
+          NoCVC(
+          ) [NoCVC]
+          VarDeclaration(
+            IType(
+              IdType(
+               int
+              ) [IdType]
+            ) [IType]
+            VarElemArray(
+             niz
+            ) [VarElemArray]
+            NoCISLists(
+            ) [NoCISLists]
+          ) [VarDeclaration]
+        ) [VDecl]
+        VarDeclaration(
+          IType(
+            IdType(
+             char
+            ) [IdType]
+          ) [IType]
+          VarElemArray(
+           nizch
+          ) [VarElemArray]
+          NoCISLists(
+          ) [NoCISLists]
+        ) [VarDeclaration]
+      ) [VDecl]
+      NoMethDecl(
+      ) [NoMethDecl]
+    ) [Names]
+  ) [NamesList]
+  VDecl(
+    NoCVC(
+    ) [NoCVC]
+    VarDeclaration(
+      IType(
+        IdType(
+         int
+        ) [IdType]
+      ) [IType]
+      VarElemIdent(
+       a
+      ) [VarElemIdent]
+      NoCISLists(
+      ) [NoCISLists]
+    ) [VarDeclaration]
+  ) [VDecl]
+  MethDeclList(
+    NoMethDecl(
+    ) [NoMethDecl]
+    MethDecl(
+      TVvoid(
+       main
+      ) [TVvoid]
+      NoFormParsOccured(
+      ) [NoFormParsOccured]
+      VarDeclRepeat(
+        VarDeclRepeat(
+          NoVarDeclRepeat(
+          ) [NoVarDeclRepeat]
+          VarDeclaration(
+            IType(
+              IdType(
+               int
+              ) [IdType]
+            ) [IType]
+            VarElemIdent(
+             bodovi
+            ) [VarElemIdent]
+            NoCISLists(
+            ) [NoCISLists]
+          ) [VarDeclaration]
+        ) [VarDeclRepeat]
+        VarDeclaration(
+          IType(
+            IdType(
+             bool
+            ) [IdType]
+          ) [IType]
+          VarElemIdent(
+           bt
+          ) [VarElemIdent]
+          NoCISLists(
+          ) [NoCISLists]
+        ) [VarDeclaration]
+      ) [VarDeclRepeat]
+      StmtListRepeat(
+        StmtListRepeat(
+          StmtListRepeat(
+            StmtListRepeat(
+              StmtListRepeat(
+                StmtListRepeat(
+                  StmtListRepeat(
+                    StmtListRepeat(
+                      StmtListRepeat(
+                        StmtListRepeat(
+                          StmtListRepeat(
+                            StmtListRepeat(
+                              StmtListRepeat(
+                                StmtListRepeat(
+                                  StmtListRepeat(
+                                    StmtListRepeat(
+                                      StmtListRepeat(
+                                        StmtListRepeat(
+                                          StmtListRepeat(
+                                            StmtListRepeat(
+                                              StmtListRepeat(
+                                                StmtListRepeat(
+                                                  StmtListRepeat(
+                                                    NoStmtListRepeat(
+                                                    ) [NoStmtListRepeat]
+                                                    StatementDesignatorStatement(
+                                                      DesignatorStmtAss(
+                                                        DesignatorNoIdentDoubleOccured(
+                                                         bodovi
+                                                          NoIdentExpr(
+                                                          ) [NoIdentExpr]
+                                                        ) [DesignatorNoIdentDoubleOccured]
+                                                        AssEQUAL(
+                                                        ) [AssEQUAL]
+                                                        ExprTerm(
+                                                          Term(
+                                                            FactorNumConst(
+                                                              NumConst(
+                                                               0
+                                                              ) [NumConst]
+                                                            ) [FactorNumConst]
+                                                            NoMulopFactorLists(
+                                                            ) [NoMulopFactorLists]
+                                                          ) [Term]
+                                                          NoAddopTermList(
+                                                          ) [NoAddopTermList]
+                                                        ) [ExprTerm]
+                                                      ) [DesignatorStmtAss]
+                                                    ) [StatementDesignatorStatement]
+                                                  ) [StmtListRepeat]
+                                                  StatementDesignatorStatement(
+                                                    DesignatorStmtINC(
+                                                      DesignatorNoIdentDoubleOccured(
+                                                       bodovi
+                                                        NoIdentExpr(
+                                                        ) [NoIdentExpr]
+                                                      ) [DesignatorNoIdentDoubleOccured]
+                                                    ) [DesignatorStmtINC]
+                                                  ) [StatementDesignatorStatement]
+                                                ) [StmtListRepeat]
+                                                StatementDesignatorStatement(
+                                                  DesignatorStmtAss(
+                                                    DesignatorNoIdentDoubleOccured(
+                                                     bodovi
+                                                      NoIdentExpr(
+                                                      ) [NoIdentExpr]
+                                                    ) [DesignatorNoIdentDoubleOccured]
+                                                    AssEQUAL(
+                                                    ) [AssEQUAL]
+                                                    ExprTerm(
+                                                      Term(
+                                                        FactorDesignator(
+                                                          DesignatorNoIdentDoubleOccured(
+                                                           bodovi
+                                                            NoIdentExpr(
+                                                            ) [NoIdentExpr]
+                                                          ) [DesignatorNoIdentDoubleOccured]
+                                                          NoBracketActPars(
+                                                          ) [NoBracketActPars]
+                                                        ) [FactorDesignator]
+                                                        NoMulopFactorLists(
+                                                        ) [NoMulopFactorLists]
+                                                      ) [Term]
+                                                      AddopTermLists(
+                                                        NoAddopTermList(
+                                                        ) [NoAddopTermList]
+                                                        AddopPLUS(
+                                                        ) [AddopPLUS]
+                                                        Term(
+                                                          FactorDesignator(
+                                                            DesignatorIdentDoubleOccured(
+                                                             Konstante
+                                                             jedan
+                                                              NoIdentExpr(
+                                                              ) [NoIdentExpr]
+                                                            ) [DesignatorIdentDoubleOccured]
+                                                            NoBracketActPars(
+                                                            ) [NoBracketActPars]
+                                                          ) [FactorDesignator]
+                                                          NoMulopFactorLists(
+                                                          ) [NoMulopFactorLists]
+                                                        ) [Term]
+                                                      ) [AddopTermLists]
+                                                    ) [ExprTerm]
+                                                  ) [DesignatorStmtAss]
+                                                ) [StatementDesignatorStatement]
+                                              ) [StmtListRepeat]
+                                              StatementDesignatorStatement(
+                                                DesignatorStmtAss(
+                                                  DesignatorNoIdentDoubleOccured(
+                                                   bodovi
+                                                    NoIdentExpr(
+                                                    ) [NoIdentExpr]
+                                                  ) [DesignatorNoIdentDoubleOccured]
+                                                  AssEQUAL(
+                                                  ) [AssEQUAL]
+                                                  ExprTerm(
+                                                    Term(
+                                                      FactorDesignator(
+                                                        DesignatorNoIdentDoubleOccured(
+                                                         bodovi
+                                                          NoIdentExpr(
+                                                          ) [NoIdentExpr]
+                                                        ) [DesignatorNoIdentDoubleOccured]
+                                                        NoBracketActPars(
+                                                        ) [NoBracketActPars]
+                                                      ) [FactorDesignator]
+                                                      MulopFactorLists(
+                                                        NoMulopFactorLists(
+                                                        ) [NoMulopFactorLists]
+                                                        MulopMUL(
+                                                        ) [MulopMUL]
+                                                        FactorDesignator(
+                                                          DesignatorIdentDoubleOccured(
+                                                           Konstante
+                                                           pet
+                                                            NoIdentExpr(
+                                                            ) [NoIdentExpr]
+                                                          ) [DesignatorIdentDoubleOccured]
+                                                          NoBracketActPars(
+                                                          ) [NoBracketActPars]
+                                                        ) [FactorDesignator]
+                                                      ) [MulopFactorLists]
+                                                    ) [Term]
+                                                    NoAddopTermList(
+                                                    ) [NoAddopTermList]
+                                                  ) [ExprTerm]
+                                                ) [DesignatorStmtAss]
+                                              ) [StatementDesignatorStatement]
+                                            ) [StmtListRepeat]
+                                            StatementDesignatorStatement(
+                                              DesignatorStmtDEC(
+                                                DesignatorNoIdentDoubleOccured(
+                                                 bodovi
+                                                  NoIdentExpr(
+                                                  ) [NoIdentExpr]
+                                                ) [DesignatorNoIdentDoubleOccured]
+                                              ) [DesignatorStmtDEC]
+                                            ) [StatementDesignatorStatement]
+                                          ) [StmtListRepeat]
+                                          StatementPrint(
+                                            ExprTerm(
+                                              Term(
+                                                FactorDesignator(
+                                                  DesignatorNoIdentDoubleOccured(
+                                                   bodovi
+                                                    NoIdentExpr(
+                                                    ) [NoIdentExpr]
+                                                  ) [DesignatorNoIdentDoubleOccured]
+                                                  NoBracketActPars(
+                                                  ) [NoBracketActPars]
+                                                ) [FactorDesignator]
+                                                NoMulopFactorLists(
+                                                ) [NoMulopFactorLists]
+                                              ) [Term]
+                                              NoAddopTermList(
+                                              ) [NoAddopTermList]
+                                            ) [ExprTerm]
+                                            NoCommaConstOcc(
+                                            ) [NoCommaConstOcc]
+                                          ) [StatementPrint]
+                                        ) [StmtListRepeat]
+                                        StatementDesignatorStatement(
+                                          DesignatorStmtAss(
+                                            DesignatorIdentDoubleOccured(
+                                             Nizovi
+                                             niz
+                                              NoIdentExpr(
+                                              ) [NoIdentExpr]
+                                            ) [DesignatorIdentDoubleOccured]
+                                            AssEQUAL(
+                                            ) [AssEQUAL]
+                                            ExprTerm(
+                                              Term(
+                                                FactorType(
+                                                  IType(
+                                                    IdType(
+                                                     int
+                                                    ) [IdType]
+                                                  ) [IType]
+                                                  ExprTerm(
+                                                    Term(
+                                                      FactorNumConst(
+                                                        NumConst(
+                                                         3
+                                                        ) [NumConst]
+                                                      ) [FactorNumConst]
+                                                      NoMulopFactorLists(
+                                                      ) [NoMulopFactorLists]
+                                                    ) [Term]
+                                                    NoAddopTermList(
+                                                    ) [NoAddopTermList]
+                                                  ) [ExprTerm]
+                                                ) [FactorType]
+                                                NoMulopFactorLists(
+                                                ) [NoMulopFactorLists]
+                                              ) [Term]
+                                              NoAddopTermList(
+                                              ) [NoAddopTermList]
+                                            ) [ExprTerm]
+                                          ) [DesignatorStmtAss]
+                                        ) [StatementDesignatorStatement]
+                                      ) [StmtListRepeat]
+                                      StatementDesignatorStatement(
+                                        DesignatorStmtAss(
+                                          DesignatorIdentDoubleOccured(
+                                           Nizovi
+                                           niz
+                                            IdentExprSQBraceIdent(
+                                              NoIdentExpr(
+                                              ) [NoIdentExpr]
+                                              ExprTerm(
+                                                Term(
+                                                  FactorDesignator(
+                                                    DesignatorIdentDoubleOccured(
+                                                     Konstante
+                                                     nula
+                                                      NoIdentExpr(
+                                                      ) [NoIdentExpr]
+                                                    ) [DesignatorIdentDoubleOccured]
+                                                    NoBracketActPars(
+                                                    ) [NoBracketActPars]
+                                                  ) [FactorDesignator]
+                                                  NoMulopFactorLists(
+                                                  ) [NoMulopFactorLists]
+                                                ) [Term]
+                                                NoAddopTermList(
+                                                ) [NoAddopTermList]
+                                              ) [ExprTerm]
+                                            ) [IdentExprSQBraceIdent]
+                                          ) [DesignatorIdentDoubleOccured]
+                                          AssEQUAL(
+                                          ) [AssEQUAL]
+                                          ExprTerm(
+                                            Term(
+                                              FactorDesignator(
+                                                DesignatorIdentDoubleOccured(
+                                                 Konstante
+                                                 jedan
+                                                  NoIdentExpr(
+                                                  ) [NoIdentExpr]
+                                                ) [DesignatorIdentDoubleOccured]
+                                                NoBracketActPars(
+                                                ) [NoBracketActPars]
+                                              ) [FactorDesignator]
+                                              NoMulopFactorLists(
+                                              ) [NoMulopFactorLists]
+                                            ) [Term]
+                                            NoAddopTermList(
+                                            ) [NoAddopTermList]
+                                          ) [ExprTerm]
+                                        ) [DesignatorStmtAss]
+                                      ) [StatementDesignatorStatement]
+                                    ) [StmtListRepeat]
+                                    StatementDesignatorStatement(
+                                      DesignatorStmtAss(
+                                        DesignatorIdentDoubleOccured(
+                                         Nizovi
+                                         niz
+                                          IdentExprSQBraceIdent(
+                                            NoIdentExpr(
+                                            ) [NoIdentExpr]
+                                            ExprTerm(
+                                              Term(
+                                                FactorNumConst(
+                                                  NumConst(
+                                                   1
+                                                  ) [NumConst]
+                                                ) [FactorNumConst]
+                                                NoMulopFactorLists(
+                                                ) [NoMulopFactorLists]
+                                              ) [Term]
+                                              NoAddopTermList(
+                                              ) [NoAddopTermList]
+                                            ) [ExprTerm]
+                                          ) [IdentExprSQBraceIdent]
+                                        ) [DesignatorIdentDoubleOccured]
+                                        AssEQUAL(
+                                        ) [AssEQUAL]
+                                        ExprTerm(
+                                          Term(
+                                            FactorNumConst(
+                                              NumConst(
+                                               2
+                                              ) [NumConst]
+                                            ) [FactorNumConst]
+                                            NoMulopFactorLists(
+                                            ) [NoMulopFactorLists]
+                                          ) [Term]
+                                          NoAddopTermList(
+                                          ) [NoAddopTermList]
+                                        ) [ExprTerm]
+                                      ) [DesignatorStmtAss]
+                                    ) [StatementDesignatorStatement]
+                                  ) [StmtListRepeat]
+                                  StatementDesignatorStatement(
+                                    DesignatorStmtAss(
+                                      DesignatorIdentDoubleOccured(
+                                       Nizovi
+                                       niz
+                                        IdentExprSQBraceIdent(
+                                          NoIdentExpr(
+                                          ) [NoIdentExpr]
+                                          ExprTerm(
+                                            Term(
+                                              FactorDesignator(
+                                                DesignatorIdentDoubleOccured(
+                                                 Nizovi
+                                                 niz
+                                                  IdentExprSQBraceIdent(
+                                                    NoIdentExpr(
+                                                    ) [NoIdentExpr]
+                                                    ExprTerm(
+                                                      Term(
+                                                        FactorDesignator(
+                                                          DesignatorIdentDoubleOccured(
+                                                           Konstante
+                                                           jedan
+                                                            NoIdentExpr(
+                                                            ) [NoIdentExpr]
+                                                          ) [DesignatorIdentDoubleOccured]
+                                                          NoBracketActPars(
+                                                          ) [NoBracketActPars]
+                                                        ) [FactorDesignator]
+                                                        NoMulopFactorLists(
+                                                        ) [NoMulopFactorLists]
+                                                      ) [Term]
+                                                      NoAddopTermList(
+                                                      ) [NoAddopTermList]
+                                                    ) [ExprTerm]
+                                                  ) [IdentExprSQBraceIdent]
+                                                ) [DesignatorIdentDoubleOccured]
+                                                NoBracketActPars(
+                                                ) [NoBracketActPars]
+                                              ) [FactorDesignator]
+                                              NoMulopFactorLists(
+                                              ) [NoMulopFactorLists]
+                                            ) [Term]
+                                            NoAddopTermList(
+                                            ) [NoAddopTermList]
+                                          ) [ExprTerm]
+                                        ) [IdentExprSQBraceIdent]
+                                      ) [DesignatorIdentDoubleOccured]
+                                      AssEQUAL(
+                                      ) [AssEQUAL]
+                                      ExprTerm(
+                                        Term(
+                                          FactorDesignator(
+                                            DesignatorIdentDoubleOccured(
+                                             Nizovi
+                                             niz
+                                              IdentExprSQBraceIdent(
+                                                NoIdentExpr(
+                                                ) [NoIdentExpr]
+                                                ExprTerm(
+                                                  Term(
+                                                    FactorDesignator(
+                                                      DesignatorIdentDoubleOccured(
+                                                       Nizovi
+                                                       niz
+                                                        IdentExprSQBraceIdent(
+                                                          NoIdentExpr(
+                                                          ) [NoIdentExpr]
+                                                          ExprTerm(
+                                                            Term(
+                                                              FactorNumConst(
+                                                                NumConst(
+                                                                 0
+                                                                ) [NumConst]
+                                                              ) [FactorNumConst]
+                                                              NoMulopFactorLists(
+                                                              ) [NoMulopFactorLists]
+                                                            ) [Term]
+                                                            NoAddopTermList(
+                                                            ) [NoAddopTermList]
+                                                          ) [ExprTerm]
+                                                        ) [IdentExprSQBraceIdent]
+                                                      ) [DesignatorIdentDoubleOccured]
+                                                      NoBracketActPars(
+                                                      ) [NoBracketActPars]
+                                                    ) [FactorDesignator]
+                                                    NoMulopFactorLists(
+                                                    ) [NoMulopFactorLists]
+                                                  ) [Term]
+                                                  NoAddopTermList(
+                                                  ) [NoAddopTermList]
+                                                ) [ExprTerm]
+                                              ) [IdentExprSQBraceIdent]
+                                            ) [DesignatorIdentDoubleOccured]
+                                            NoBracketActPars(
+                                            ) [NoBracketActPars]
+                                          ) [FactorDesignator]
+                                          MulopFactorLists(
+                                            NoMulopFactorLists(
+                                            ) [NoMulopFactorLists]
+                                            MulopMUL(
+                                            ) [MulopMUL]
+                                            FactorNumConst(
+                                              NumConst(
+                                               3
+                                              ) [NumConst]
+                                            ) [FactorNumConst]
+                                          ) [MulopFactorLists]
+                                        ) [Term]
+                                        NoAddopTermList(
+                                        ) [NoAddopTermList]
+                                      ) [ExprTerm]
+                                    ) [DesignatorStmtAss]
+                                  ) [StatementDesignatorStatement]
+                                ) [StmtListRepeat]
+                                StatementDesignatorStatement(
+                                  DesignatorStmtAss(
+                                    DesignatorNoIdentDoubleOccured(
+                                     bodovi
+                                      NoIdentExpr(
+                                      ) [NoIdentExpr]
+                                    ) [DesignatorNoIdentDoubleOccured]
+                                    AssEQUAL(
+                                    ) [AssEQUAL]
+                                    ExprTerm(
+                                      Term(
+                                        FactorDesignator(
+                                          DesignatorIdentDoubleOccured(
+                                           Nizovi
+                                           niz
+                                            IdentExprSQBraceIdent(
+                                              NoIdentExpr(
+                                              ) [NoIdentExpr]
+                                              ExprTerm(
+                                                Term(
+                                                  FactorNumConst(
+                                                    NumConst(
+                                                     2
+                                                    ) [NumConst]
+                                                  ) [FactorNumConst]
+                                                  NoMulopFactorLists(
+                                                  ) [NoMulopFactorLists]
+                                                ) [Term]
+                                                NoAddopTermList(
+                                                ) [NoAddopTermList]
+                                              ) [ExprTerm]
+                                            ) [IdentExprSQBraceIdent]
+                                          ) [DesignatorIdentDoubleOccured]
+                                          NoBracketActPars(
+                                          ) [NoBracketActPars]
+                                        ) [FactorDesignator]
+                                        MulopFactorLists(
+                                          NoMulopFactorLists(
+                                          ) [NoMulopFactorLists]
+                                          MulopDIVISION(
+                                          ) [MulopDIVISION]
+                                          FactorDesignator(
+                                            DesignatorIdentDoubleOccured(
+                                             Nizovi
+                                             niz
+                                              IdentExprSQBraceIdent(
+                                                NoIdentExpr(
+                                                ) [NoIdentExpr]
+                                                ExprTerm(
+                                                  Term(
+                                                    FactorNumConst(
+                                                      NumConst(
+                                                       0
+                                                      ) [NumConst]
+                                                    ) [FactorNumConst]
+                                                    NoMulopFactorLists(
+                                                    ) [NoMulopFactorLists]
+                                                  ) [Term]
+                                                  NoAddopTermList(
+                                                  ) [NoAddopTermList]
+                                                ) [ExprTerm]
+                                              ) [IdentExprSQBraceIdent]
+                                            ) [DesignatorIdentDoubleOccured]
+                                            NoBracketActPars(
+                                            ) [NoBracketActPars]
+                                          ) [FactorDesignator]
+                                        ) [MulopFactorLists]
+                                      ) [Term]
+                                      NoAddopTermList(
+                                      ) [NoAddopTermList]
+                                    ) [ExprTerm]
+                                  ) [DesignatorStmtAss]
+                                ) [StatementDesignatorStatement]
+                              ) [StmtListRepeat]
+                              StatementPrint(
+                                ExprTerm(
+                                  Term(
+                                    FactorDesignator(
+                                      DesignatorNoIdentDoubleOccured(
+                                       bodovi
+                                        NoIdentExpr(
+                                        ) [NoIdentExpr]
+                                      ) [DesignatorNoIdentDoubleOccured]
+                                      NoBracketActPars(
+                                      ) [NoBracketActPars]
+                                    ) [FactorDesignator]
+                                    NoMulopFactorLists(
+                                    ) [NoMulopFactorLists]
+                                  ) [Term]
+                                  NoAddopTermList(
+                                  ) [NoAddopTermList]
+                                ) [ExprTerm]
+                                NoCommaConstOcc(
+                                ) [NoCommaConstOcc]
+                              ) [StatementPrint]
+                            ) [StmtListRepeat]
+                            StatementPrint(
+                              ExprTerm(
+                                Term(
+                                  FactorDesignator(
+                                    DesignatorIdentDoubleOccured(
+                                     Nizovi
+                                     niz
+                                      IdentExprSQBraceIdent(
+                                        NoIdentExpr(
+                                        ) [NoIdentExpr]
+                                        ExprTerm(
+                                          Term(
+                                            FactorNumConst(
+                                              NumConst(
+                                               2
+                                              ) [NumConst]
+                                            ) [FactorNumConst]
+                                            NoMulopFactorLists(
+                                            ) [NoMulopFactorLists]
+                                          ) [Term]
+                                          NoAddopTermList(
+                                          ) [NoAddopTermList]
+                                        ) [ExprTerm]
+                                      ) [IdentExprSQBraceIdent]
+                                    ) [DesignatorIdentDoubleOccured]
+                                    NoBracketActPars(
+                                    ) [NoBracketActPars]
+                                  ) [FactorDesignator]
+                                  NoMulopFactorLists(
+                                  ) [NoMulopFactorLists]
+                                ) [Term]
+                                NoAddopTermList(
+                                ) [NoAddopTermList]
+                              ) [ExprTerm]
+                              NoCommaConstOcc(
+                              ) [NoCommaConstOcc]
+                            ) [StatementPrint]
+                          ) [StmtListRepeat]
+                          StatementDesignatorStatement(
+                            DesignatorStmtAss(
+                              DesignatorIdentDoubleOccured(
+                               Nizovi
+                               nizch
+                                NoIdentExpr(
+                                ) [NoIdentExpr]
+                              ) [DesignatorIdentDoubleOccured]
+                              AssEQUAL(
+                              ) [AssEQUAL]
+                              ExprTerm(
+                                Term(
+                                  FactorType(
+                                    IType(
+                                      IdType(
+                                       char
+                                      ) [IdType]
+                                    ) [IType]
+                                    ExprTerm(
+                                      Term(
+                                        FactorNumConst(
+                                          NumConst(
+                                           3
+                                          ) [NumConst]
+                                        ) [FactorNumConst]
+                                        NoMulopFactorLists(
+                                        ) [NoMulopFactorLists]
+                                      ) [Term]
+                                      NoAddopTermList(
+                                      ) [NoAddopTermList]
+                                    ) [ExprTerm]
+                                  ) [FactorType]
+                                  NoMulopFactorLists(
+                                  ) [NoMulopFactorLists]
+                                ) [Term]
+                                NoAddopTermList(
+                                ) [NoAddopTermList]
+                              ) [ExprTerm]
+                            ) [DesignatorStmtAss]
+                          ) [StatementDesignatorStatement]
+                        ) [StmtListRepeat]
+                        StatementDesignatorStatement(
+                          DesignatorStmtAss(
+                            DesignatorIdentDoubleOccured(
+                             Nizovi
+                             nizch
+                              IdentExprSQBraceIdent(
+                                NoIdentExpr(
+                                ) [NoIdentExpr]
+                                ExprTerm(
+                                  Term(
+                                    FactorNumConst(
+                                      NumConst(
+                                       0
+                                      ) [NumConst]
+                                    ) [FactorNumConst]
+                                    NoMulopFactorLists(
+                                    ) [NoMulopFactorLists]
+                                  ) [Term]
+                                  NoAddopTermList(
+                                  ) [NoAddopTermList]
+                                ) [ExprTerm]
+                              ) [IdentExprSQBraceIdent]
+                            ) [DesignatorIdentDoubleOccured]
+                            AssEQUAL(
+                            ) [AssEQUAL]
+                            ExprTerm(
+                              Term(
+                                FactorCharConst(
+                                  CharConst(
+                                   a
+                                  ) [CharConst]
+                                ) [FactorCharConst]
+                                NoMulopFactorLists(
+                                ) [NoMulopFactorLists]
+                              ) [Term]
+                              NoAddopTermList(
+                              ) [NoAddopTermList]
+                            ) [ExprTerm]
+                          ) [DesignatorStmtAss]
+                        ) [StatementDesignatorStatement]
+                      ) [StmtListRepeat]
+                      StatementDesignatorStatement(
+                        DesignatorStmtAss(
+                          DesignatorIdentDoubleOccured(
+                           Nizovi
+                           nizch
+                            IdentExprSQBraceIdent(
+                              NoIdentExpr(
+                              ) [NoIdentExpr]
+                              ExprTerm(
+                                Term(
+                                  FactorDesignator(
+                                    DesignatorIdentDoubleOccured(
+                                     Konstante
+                                     jedan
+                                      NoIdentExpr(
+                                      ) [NoIdentExpr]
+                                    ) [DesignatorIdentDoubleOccured]
+                                    NoBracketActPars(
+                                    ) [NoBracketActPars]
+                                  ) [FactorDesignator]
+                                  NoMulopFactorLists(
+                                  ) [NoMulopFactorLists]
+                                ) [Term]
+                                NoAddopTermList(
+                                ) [NoAddopTermList]
+                              ) [ExprTerm]
+                            ) [IdentExprSQBraceIdent]
+                          ) [DesignatorIdentDoubleOccured]
+                          AssEQUAL(
+                          ) [AssEQUAL]
+                          ExprTerm(
+                            Term(
+                              FactorCharConst(
+                                CharConst(
+                                 b
+                                ) [CharConst]
+                              ) [FactorCharConst]
+                              NoMulopFactorLists(
+                              ) [NoMulopFactorLists]
+                            ) [Term]
+                            NoAddopTermList(
+                            ) [NoAddopTermList]
+                          ) [ExprTerm]
+                        ) [DesignatorStmtAss]
+                      ) [StatementDesignatorStatement]
+                    ) [StmtListRepeat]
+                    StatementDesignatorStatement(
+                      DesignatorStmtAss(
+                        DesignatorIdentDoubleOccured(
+                         Nizovi
+                         nizch
+                          IdentExprSQBraceIdent(
+                            NoIdentExpr(
+                            ) [NoIdentExpr]
+                            ExprTerm(
+                              Term(
+                                FactorDesignator(
+                                  DesignatorIdentDoubleOccured(
+                                   Konstante
+                                   pet
+                                    NoIdentExpr(
+                                    ) [NoIdentExpr]
+                                  ) [DesignatorIdentDoubleOccured]
+                                  NoBracketActPars(
+                                  ) [NoBracketActPars]
+                                ) [FactorDesignator]
+                                NoMulopFactorLists(
+                                ) [NoMulopFactorLists]
+                              ) [Term]
+                              AddopTermLists(
+                                NoAddopTermList(
+                                ) [NoAddopTermList]
+                                AddopMINUS(
+                                ) [AddopMINUS]
+                                Term(
+                                  FactorNumConst(
+                                    NumConst(
+                                     3
+                                    ) [NumConst]
+                                  ) [FactorNumConst]
+                                  NoMulopFactorLists(
+                                  ) [NoMulopFactorLists]
+                                ) [Term]
+                              ) [AddopTermLists]
+                            ) [ExprTerm]
+                          ) [IdentExprSQBraceIdent]
+                        ) [DesignatorIdentDoubleOccured]
+                        AssEQUAL(
+                        ) [AssEQUAL]
+                        ExprTerm(
+                          Term(
+                            FactorCharConst(
+                              CharConst(
+                               c
+                              ) [CharConst]
+                            ) [FactorCharConst]
+                            NoMulopFactorLists(
+                            ) [NoMulopFactorLists]
+                          ) [Term]
+                          NoAddopTermList(
+                          ) [NoAddopTermList]
+                        ) [ExprTerm]
+                      ) [DesignatorStmtAss]
+                    ) [StatementDesignatorStatement]
+                  ) [StmtListRepeat]
+                  StatementPrint(
+                    ExprTerm(
+                      Term(
+                        FactorDesignator(
+                          DesignatorIdentDoubleOccured(
+                           Nizovi
+                           nizch
+                            IdentExprSQBraceIdent(
+                              NoIdentExpr(
+                              ) [NoIdentExpr]
+                              ExprTerm(
+                                Term(
+                                  FactorNumConst(
+                                    NumConst(
+                                     1
+                                    ) [NumConst]
+                                  ) [FactorNumConst]
+                                  NoMulopFactorLists(
+                                  ) [NoMulopFactorLists]
+                                ) [Term]
+                                NoAddopTermList(
+                                ) [NoAddopTermList]
+                              ) [ExprTerm]
+                            ) [IdentExprSQBraceIdent]
+                          ) [DesignatorIdentDoubleOccured]
+                          NoBracketActPars(
+                          ) [NoBracketActPars]
+                        ) [FactorDesignator]
+                        NoMulopFactorLists(
+                        ) [NoMulopFactorLists]
+                      ) [Term]
+                      NoAddopTermList(
+                      ) [NoAddopTermList]
+                    ) [ExprTerm]
+                    NoCommaConstOcc(
+                    ) [NoCommaConstOcc]
+                  ) [StatementPrint]
+                ) [StmtListRepeat]
+                StatementPrint(
+                  ExprTerm(
+                    Term(
+                      FactorDesignator(
+                        DesignatorIdentDoubleOccured(
+                         Nizovi
+                         nizch
+                          IdentExprSQBraceIdent(
+                            NoIdentExpr(
+                            ) [NoIdentExpr]
+                            ExprTerm(
+                              Term(
+                                FactorDesignator(
+                                  DesignatorIdentDoubleOccured(
+                                   Konstante
+                                   jedan
+                                    NoIdentExpr(
+                                    ) [NoIdentExpr]
+                                  ) [DesignatorIdentDoubleOccured]
+                                  NoBracketActPars(
+                                  ) [NoBracketActPars]
+                                ) [FactorDesignator]
+                                MulopFactorLists(
+                                  NoMulopFactorLists(
+                                  ) [NoMulopFactorLists]
+                                  MulopMUL(
+                                  ) [MulopMUL]
+                                  FactorNumConst(
+                                    NumConst(
+                                     2
+                                    ) [NumConst]
+                                  ) [FactorNumConst]
+                                ) [MulopFactorLists]
+                              ) [Term]
+                              NoAddopTermList(
+                              ) [NoAddopTermList]
+                            ) [ExprTerm]
+                          ) [IdentExprSQBraceIdent]
+                        ) [DesignatorIdentDoubleOccured]
+                        NoBracketActPars(
+                        ) [NoBracketActPars]
+                      ) [FactorDesignator]
+                      NoMulopFactorLists(
+                      ) [NoMulopFactorLists]
+                    ) [Term]
+                    NoAddopTermList(
+                    ) [NoAddopTermList]
+                  ) [ExprTerm]
+                  NoCommaConstOcc(
+                  ) [NoCommaConstOcc]
+                ) [StatementPrint]
+              ) [StmtListRepeat]
+              StatementDesignatorStatement(
+                DesignatorStmtAss(
+                  DesignatorNoIdentDoubleOccured(
+                   a
+                    NoIdentExpr(
+                    ) [NoIdentExpr]
+                  ) [DesignatorNoIdentDoubleOccured]
+                  AssEQUAL(
+                  ) [AssEQUAL]
+                  ExprTerm(
+                    Term(
+                      FactorNumConst(
+                        NumConst(
+                         1
+                        ) [NumConst]
+                      ) [FactorNumConst]
+                      NoMulopFactorLists(
+                      ) [NoMulopFactorLists]
+                    ) [Term]
+                    NoAddopTermList(
+                    ) [NoAddopTermList]
+                  ) [ExprTerm]
+                ) [DesignatorStmtAss]
+              ) [StatementDesignatorStatement]
+            ) [StmtListRepeat]
+            StatementRead(
+              DesignatorNoIdentDoubleOccured(
+               bodovi
+                NoIdentExpr(
+                ) [NoIdentExpr]
+              ) [DesignatorNoIdentDoubleOccured]
+            ) [StatementRead]
+          ) [StmtListRepeat]
+          StatementDesignatorStatement(
+            DesignatorStmtAss(
+              DesignatorNoIdentDoubleOccured(
+               bodovi
+                NoIdentExpr(
+                ) [NoIdentExpr]
+              ) [DesignatorNoIdentDoubleOccured]
+              AssEQUAL(
+              ) [AssEQUAL]
+              ExprTermMinus(
+                Term(
+                  FactorDesignator(
+                    DesignatorNoIdentDoubleOccured(
+                     bodovi
+                      NoIdentExpr(
+                      ) [NoIdentExpr]
+                    ) [DesignatorNoIdentDoubleOccured]
+                    NoBracketActPars(
+                    ) [NoBracketActPars]
+                  ) [FactorDesignator]
+                  NoMulopFactorLists(
+                  ) [NoMulopFactorLists]
+                ) [Term]
+                AddopTermLists(
+                  AddopTermLists(
+                    NoAddopTermList(
+                    ) [NoAddopTermList]
+                    AddopPLUS(
+                    ) [AddopPLUS]
+                    Term(
+                      FactorExpr(
+                        ExprTerm(
+                          Term(
+                            FactorDesignator(
+                              DesignatorIdentDoubleOccured(
+                               Konstante
+                               pet
+                                NoIdentExpr(
+                                ) [NoIdentExpr]
+                              ) [DesignatorIdentDoubleOccured]
+                              NoBracketActPars(
+                              ) [NoBracketActPars]
+                            ) [FactorDesignator]
+                            MulopFactorLists(
+                              MulopFactorLists(
+                                NoMulopFactorLists(
+                                ) [NoMulopFactorLists]
+                                MulopMUL(
+                                ) [MulopMUL]
+                                FactorDesignator(
+                                  DesignatorNoIdentDoubleOccured(
+                                   a
+                                    NoIdentExpr(
+                                    ) [NoIdentExpr]
+                                  ) [DesignatorNoIdentDoubleOccured]
+                                  NoBracketActPars(
+                                  ) [NoBracketActPars]
+                                ) [FactorDesignator]
+                              ) [MulopFactorLists]
+                              MulopDIVISION(
+                              ) [MulopDIVISION]
+                              FactorNumConst(
+                                NumConst(
+                                 2
+                                ) [NumConst]
+                              ) [FactorNumConst]
+                            ) [MulopFactorLists]
+                          ) [Term]
+                          AddopTermLists(
+                            NoAddopTermList(
+                            ) [NoAddopTermList]
+                            AddopMINUS(
+                            ) [AddopMINUS]
+                            Term(
+                              FactorDesignator(
+                                DesignatorIdentDoubleOccured(
+                                 Konstante
+                                 jedan
+                                  NoIdentExpr(
+                                  ) [NoIdentExpr]
+                                ) [DesignatorIdentDoubleOccured]
+                                NoBracketActPars(
+                                ) [NoBracketActPars]
+                              ) [FactorDesignator]
+                              NoMulopFactorLists(
+                              ) [NoMulopFactorLists]
+                            ) [Term]
+                          ) [AddopTermLists]
+                        ) [ExprTerm]
+                      ) [FactorExpr]
+                      MulopFactorLists(
+                        NoMulopFactorLists(
+                        ) [NoMulopFactorLists]
+                        MulopMUL(
+                        ) [MulopMUL]
+                        FactorDesignator(
+                          DesignatorNoIdentDoubleOccured(
+                           bodovi
+                            NoIdentExpr(
+                            ) [NoIdentExpr]
+                          ) [DesignatorNoIdentDoubleOccured]
+                          NoBracketActPars(
+                          ) [NoBracketActPars]
+                        ) [FactorDesignator]
+                      ) [MulopFactorLists]
+                    ) [Term]
+                  ) [AddopTermLists]
+                  AddopMINUS(
+                  ) [AddopMINUS]
+                  Term(
+                    FactorExpr(
+                      ExprTerm(
+                        Term(
+                          FactorNumConst(
+                            NumConst(
+                             3
+                            ) [NumConst]
+                          ) [FactorNumConst]
+                          MulopFactorLists(
+                            NoMulopFactorLists(
+                            ) [NoMulopFactorLists]
+                            MulopDIV(
+                            ) [MulopDIV]
+                            FactorNumConst(
+                              NumConst(
+                               2
+                              ) [NumConst]
+                            ) [FactorNumConst]
+                          ) [MulopFactorLists]
+                        ) [Term]
+                        AddopTermLists(
+                          AddopTermLists(
+                            NoAddopTermList(
+                            ) [NoAddopTermList]
+                            AddopPLUS(
+                            ) [AddopPLUS]
+                            Term(
+                              FactorNumConst(
+                                NumConst(
+                                 3
+                                ) [NumConst]
+                              ) [FactorNumConst]
+                              MulopFactorLists(
+                                NoMulopFactorLists(
+                                ) [NoMulopFactorLists]
+                                MulopMUL(
+                                ) [MulopMUL]
+                                FactorNumConst(
+                                  NumConst(
+                                   2
+                                  ) [NumConst]
+                                ) [FactorNumConst]
+                              ) [MulopFactorLists]
+                            ) [Term]
+                          ) [AddopTermLists]
+                          AddopMINUS(
+                          ) [AddopMINUS]
+                          Term(
+                            FactorNumConst(
+                              NumConst(
+                               3
+                              ) [NumConst]
+                            ) [FactorNumConst]
+                            NoMulopFactorLists(
+                            ) [NoMulopFactorLists]
+                          ) [Term]
+                        ) [AddopTermLists]
+                      ) [ExprTerm]
+                    ) [FactorExpr]
+                    NoMulopFactorLists(
+                    ) [NoMulopFactorLists]
+                  ) [Term]
+                ) [AddopTermLists]
+              ) [ExprTermMinus]
+            ) [DesignatorStmtAss]
+          ) [StatementDesignatorStatement]
+        ) [StmtListRepeat]
+        StatementPrint(
+          ExprTerm(
+            Term(
+              FactorDesignator(
+                DesignatorNoIdentDoubleOccured(
+                 bodovi
+                  NoIdentExpr(
+                  ) [NoIdentExpr]
+                ) [DesignatorNoIdentDoubleOccured]
+                NoBracketActPars(
+                ) [NoBracketActPars]
+              ) [FactorDesignator]
+              NoMulopFactorLists(
+              ) [NoMulopFactorLists]
+            ) [Term]
+            NoAddopTermList(
+            ) [NoAddopTermList]
+          ) [ExprTerm]
+          NoCommaConstOcc(
+          ) [NoCommaConstOcc]
+        ) [StatementPrint]
+      ) [StmtListRepeat]
+    ) [MethDecl]
+  ) [MethDeclList]
+) [Program]
+INFO  14:42:07,021 - ===================================
+INFO  14:42:07,023 - Deklairsan namespace : Konstante na liniji 5
+INFO  14:42:07,024 - deklarisana konstanta nula sa vrednosti 0 na liniji 6 na liniji 6
+INFO  14:42:07,024 - deklarisana konstanta jedan sa vrednosti 1 na liniji 7 na liniji 7
+INFO  14:42:07,024 - deklarisana konstanta pet sa vrednosti 5 na liniji 8 na liniji 8
+INFO  14:42:07,024 - Deklairsan namespace : Nizovi na liniji 13
+INFO  14:42:07,024 - Tip arrType: 1 na liniji 14
+INFO  14:42:07,024 - Deklairsana promenljiva : niz na liniji 14
+INFO  14:42:07,024 - Tip arrType: 2 na liniji 15
+INFO  14:42:07,024 - Deklairsana promenljiva : nizch na liniji 15
+INFO  14:42:07,024 - Deklairsana promenljiva : a na liniji 20
+INFO  14:42:07,024 - Deklairsana metoda : main na liniji 23
+INFO  14:42:07,024 - Deklairsana promenljiva : bodovi na liniji 24
+INFO  14:42:07,024 - Deklairsana promenljiva : bt na liniji 25
+INFO  14:42:07,025 - =====================================
+INFO  14:42:07,029 - Parsiranje uspesno zavrseno!

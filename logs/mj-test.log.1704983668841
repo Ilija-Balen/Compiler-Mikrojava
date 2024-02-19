@@ -1,0 +1,294 @@
+INFO  15:34:13,666 - Compiling source file: C:\Users\Ilija\Desktop\PP1\PP_PROJEKAT\pp1Domaci\workspace\MJCompiler\test\program.mj
+INFO  15:34:13,702 - #2 program
+INFO  15:34:13,702 - #46 test301
+INFO  15:34:13,702 - #9 namespace
+INFO  15:34:13,703 - #46 Konstante
+INFO  15:34:13,703 - #3 {
+INFO  15:34:13,704 - #19 const
+INFO  15:34:13,704 - #46 int
+INFO  15:34:13,704 - #46 nula
+INFO  15:34:13,704 - #20 =
+INFO  15:34:13,704 - #45 0
+INFO  15:34:13,704 - #21 ;
+INFO  15:34:13,705 - #19 const
+INFO  15:34:13,705 - #46 int
+INFO  15:34:13,705 - #46 jedan
+INFO  15:34:13,705 - #20 =
+INFO  15:34:13,705 - #45 1
+INFO  15:34:13,705 - #21 ;
+INFO  15:34:13,706 - #19 const
+INFO  15:34:13,706 - #46 int
+INFO  15:34:13,706 - #46 pet
+INFO  15:34:13,706 - #20 =
+INFO  15:34:13,706 - #45 5
+INFO  15:34:13,706 - #21 ;
+INFO  15:34:13,706 - #3 {
+INFO  15:34:13,706 - #4 }
+INFO  15:34:13,707 - #4 }
+INFO  15:34:13,707 - #9 namespace
+INFO  15:34:13,707 - #46 Nizovi
+INFO  15:34:13,707 - #3 {
+INFO  15:34:13,707 - #46 int
+INFO  15:34:13,707 - #46 niz
+INFO  15:34:13,707 - #5 [
+INFO  15:34:13,707 - #6 ]
+INFO  15:34:13,707 - #21 ;
+INFO  15:34:13,708 - #46 char
+INFO  15:34:13,708 - #46 nizch
+INFO  15:34:13,708 - #5 [
+INFO  15:34:13,708 - #6 ]
+INFO  15:34:13,708 - #21 ;
+INFO  15:34:13,708 - #3 {
+INFO  15:34:13,708 - #4 }
+INFO  15:34:13,708 - #4 }
+INFO  15:34:13,708 - #46 int
+INFO  15:34:13,708 - #46 a
+INFO  15:34:13,708 - #21 ;
+INFO  15:34:13,708 - #19 const
+INFO  15:34:13,708 - #46 char
+INFO  15:34:13,708 - #46 c
+INFO  15:34:13,709 - #20 =
+INFO  15:34:13,709 - #48 true
+INFO  15:34:13,709 - #21 ;
+INFO  15:34:13,709 - #3 {
+INFO  15:34:13,709 - #46 int
+INFO  15:34:13,709 - #46 main
+INFO  15:34:13,709 - #11 (
+INFO  15:34:13,709 - #12 )
+INFO  15:34:13,709 - #46 int
+INFO  15:34:13,710 - #46 bodovi
+INFO  15:34:13,710 - #21 ;
+INFO  15:34:13,710 - #46 bool
+INFO  15:34:13,710 - #46 bt
+INFO  15:34:13,710 - #21 ;
+INFO  15:34:13,710 - #3 {
+INFO  15:34:13,710 - #28 print
+INFO  15:34:13,711 - #11 (
+INFO  15:34:13,711 - #46 c
+INFO  15:34:13,711 - #12 )
+INFO  15:34:13,713 - #21 ;
+INFO  15:34:13,715 - #4 }
+INFO  15:34:13,715 - #4 }
+INFO  15:34:13,725 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  NamesList(
+    NamesList(
+      NoNamesList(
+      ) [NoNamesList]
+      Names(
+        NamespaceName(
+         Konstante
+        ) [NamespaceName]
+        CDecl(
+          CDecl(
+            CDecl(
+              NoCVC(
+              ) [NoCVC]
+              ConstDeclarations(
+                IType(
+                  IdType(
+                   int
+                  ) [IdType]
+                ) [IType]
+               nula
+                NCBNumConst(
+                 0
+                ) [NCBNumConst]
+                NoNCBLists(
+                ) [NoNCBLists]
+              ) [ConstDeclarations]
+            ) [CDecl]
+            ConstDeclarations(
+              IType(
+                IdType(
+                 int
+                ) [IdType]
+              ) [IType]
+             jedan
+              NCBNumConst(
+               1
+              ) [NCBNumConst]
+              NoNCBLists(
+              ) [NoNCBLists]
+            ) [ConstDeclarations]
+          ) [CDecl]
+          ConstDeclarations(
+            IType(
+              IdType(
+               int
+              ) [IdType]
+            ) [IType]
+           pet
+            NCBNumConst(
+             5
+            ) [NCBNumConst]
+            NoNCBLists(
+            ) [NoNCBLists]
+          ) [ConstDeclarations]
+        ) [CDecl]
+        NoMethDecl(
+        ) [NoMethDecl]
+      ) [Names]
+    ) [NamesList]
+    Names(
+      NamespaceName(
+       Nizovi
+      ) [NamespaceName]
+      VDecl(
+        VDecl(
+          NoCVC(
+          ) [NoCVC]
+          VarDeclaration(
+            IType(
+              IdType(
+               int
+              ) [IdType]
+            ) [IType]
+            VarElemArray(
+             niz
+            ) [VarElemArray]
+            NoCISLists(
+            ) [NoCISLists]
+          ) [VarDeclaration]
+        ) [VDecl]
+        VarDeclaration(
+          IType(
+            IdType(
+             char
+            ) [IdType]
+          ) [IType]
+          VarElemArray(
+           nizch
+          ) [VarElemArray]
+          NoCISLists(
+          ) [NoCISLists]
+        ) [VarDeclaration]
+      ) [VDecl]
+      NoMethDecl(
+      ) [NoMethDecl]
+    ) [Names]
+  ) [NamesList]
+  CDecl(
+    VDecl(
+      NoCVC(
+      ) [NoCVC]
+      VarDeclaration(
+        IType(
+          IdType(
+           int
+          ) [IdType]
+        ) [IType]
+        VarElemIdent(
+         a
+        ) [VarElemIdent]
+        NoCISLists(
+        ) [NoCISLists]
+      ) [VarDeclaration]
+    ) [VDecl]
+    ConstDeclarations(
+      IType(
+        IdType(
+         char
+        ) [IdType]
+      ) [IType]
+     c
+      NCBBoolConst(
+       true
+      ) [NCBBoolConst]
+      NoNCBLists(
+      ) [NoNCBLists]
+    ) [ConstDeclarations]
+  ) [CDecl]
+  MethDeclList(
+    NoMethDecl(
+    ) [NoMethDecl]
+    MethDecl(
+      TVtype(
+        IType(
+          IdType(
+           int
+          ) [IdType]
+        ) [IType]
+       main
+      ) [TVtype]
+      NoFormParsOccured(
+      ) [NoFormParsOccured]
+      VarDeclRepeat(
+        VarDeclRepeat(
+          NoVarDeclRepeat(
+          ) [NoVarDeclRepeat]
+          VarDeclaration(
+            IType(
+              IdType(
+               int
+              ) [IdType]
+            ) [IType]
+            VarElemIdent(
+             bodovi
+            ) [VarElemIdent]
+            NoCISLists(
+            ) [NoCISLists]
+          ) [VarDeclaration]
+        ) [VarDeclRepeat]
+        VarDeclaration(
+          IType(
+            IdType(
+             bool
+            ) [IdType]
+          ) [IType]
+          VarElemIdent(
+           bt
+          ) [VarElemIdent]
+          NoCISLists(
+          ) [NoCISLists]
+        ) [VarDeclaration]
+      ) [VarDeclRepeat]
+      StmtListRepeat(
+        NoStmtListRepeat(
+        ) [NoStmtListRepeat]
+        StatementPrint(
+          ExprTerm(
+            Term(
+              FactorDesignator(
+                DesignatorNoIdentDoubleOccured(
+                 c
+                  NoIdentExpr(
+                  ) [NoIdentExpr]
+                ) [DesignatorNoIdentDoubleOccured]
+                NoBracketActPars(
+                ) [NoBracketActPars]
+              ) [FactorDesignator]
+              NoMulopFactorLists(
+              ) [NoMulopFactorLists]
+            ) [Term]
+            NoAddopTermList(
+            ) [NoAddopTermList]
+          ) [ExprTerm]
+          NoCommaConstOcc(
+          ) [NoCommaConstOcc]
+        ) [StatementPrint]
+      ) [StmtListRepeat]
+    ) [MethDecl]
+  ) [MethDeclList]
+) [Program]
+INFO  15:34:13,725 - ===================================
+INFO  15:34:13,728 - Deklairsan namespace : Konstante na liniji 5
+INFO  15:34:13,728 - deklarisana konstanta nula sa vrednosti 0u namespaceu Konstante na liniji 6 na liniji 6
+INFO  15:34:13,728 - deklarisana konstanta jedan sa vrednosti 1u namespaceu Konstante na liniji 7 na liniji 7
+INFO  15:34:13,728 - deklarisana konstanta pet sa vrednosti 5u namespaceu Konstante na liniji 8 na liniji 8
+INFO  15:34:13,728 - Deklairsan namespace : Nizovi na liniji 13
+INFO  15:34:13,728 - Deklairsana promenljiva : nizu namespace uNizovi na liniji 14
+INFO  15:34:13,728 - Tip arrType: 1 na liniji 14
+INFO  15:34:13,728 - Deklairsana promenljiva : nizchu namespace uNizovi na liniji 15
+INFO  15:34:13,728 - Tip arrType: 2 na liniji 15
+INFO  15:34:13,728 - Deklairsana promenljiva : a na liniji 20
+ERROR 15:34:13,728 - Greska simbol :c nije odgovarajuceg tipa: 21 na liniji 21
+INFO  15:34:13,729 - deklarisana konstanta c sa vrednosti 0 na liniji 21 na liniji 21
+INFO  15:34:13,729 - Deklairsana metoda : main na liniji 24
+INFO  15:34:13,729 - Deklairsana promenljiva : bodovi na liniji 25
+INFO  15:34:13,729 - Deklairsana promenljiva : bt na liniji 26
+ERROR 15:34:13,729 - Semanticka greska na liniji 24: funkcija main nema return iskaz!
+INFO  15:34:13,729 - =====================================
+ERROR 15:34:13,729 - Parsiranje NIJE uspesno zavrseno!

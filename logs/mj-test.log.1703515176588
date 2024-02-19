@@ -1,0 +1,42 @@
+INFO  15:35:48,564 - Compiling source file: C:\Users\Ilija\Desktop\PP1\PP_PROJEKAT\pp1Domaci\workspace\MJCompiler\test\program.mj
+INFO  15:35:48,598 - #2 program
+INFO  15:35:48,598 - #48 p
+INFO  15:35:48,598 - #9 namespace
+INFO  15:35:48,598 - #48 sizes
+INFO  15:35:48,598 - #3 {
+INFO  15:35:48,599 - #19 const
+INFO  15:35:48,599 - #48 int
+INFO  15:35:48,599 - #48 tableSize
+INFO  15:35:48,599 - #20 =
+INFO  15:35:48,599 - #47 10
+INFO  15:35:48,599 - #21 ;
+INFO  15:35:48,600 - #3 {
+INFO  15:35:48,600 - #4 }
+INFO  15:35:48,601 - #4 }
+INFO  15:35:48,601 - #48 int
+INFO  15:35:48,601 - #48 x
+INFO  15:35:48,601 - #21 ;
+INFO  15:35:48,602 - #48 int
+INFO  15:35:48,603 - #48 columns
+INFO  15:35:48,603 - #21 ;
+INFO  15:35:48,603 - #3 {
+INFO  15:35:48,603 - #10 void
+INFO  15:35:48,603 - #48 f
+INFO  15:35:48,603 - #11 (
+INFO  15:35:48,603 - #48 char
+INFO  15:35:48,603 - #48 ch
+INFO  15:35:48,604 - #14 ,
+INFO  15:35:48,604 - #48 int
+INFO  15:35:48,604 - #48 a
+INFO  15:35:48,604 - #14 ,
+INFO  15:35:48,604 - #48 int
+INFO  15:35:48,604 - #48 arg
+INFO  15:35:48,604 - #12 )
+INFO  15:35:48,604 - #3 {
+INFO  15:35:48,605 - #48 x
+INFO  15:35:48,605 - #20 =
+INFO  15:35:48,606 - #48 arg
+INFO  15:35:48,607 - #21 ;
+ERROR 15:35:48,607 - 
+Sintaksna greska na liniji 12
+ERROR 15:35:48,607 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 12

@@ -1,0 +1,45 @@
+INFO  19:01:52,945 - Compiling source file: C:\Users\Ilija\Desktop\PP1\PP_PROJEKAT\pp1Domaci\workspace\MJCompiler\test\program.mj
+INFO  19:01:52,983 - #2 program
+INFO  19:01:52,983 - #46 p
+INFO  19:01:52,983 - #19 const
+INFO  19:01:52,985 - #46 int
+INFO  19:01:52,985 - #46 row
+INFO  19:01:52,985 - #21 ;
+ERROR 19:01:52,985 - 
+Sintaksna greska na liniji 2
+INFO  19:01:52,985 - #3 {
+INFO  19:01:52,985 - #10 void
+INFO  19:01:52,985 - #46 main
+ERROR 19:01:52,986 - Izvrsen oporavak do ; u liniji 8
+INFO  19:01:52,987 - #11 (
+INFO  19:01:52,987 - #12 )
+INFO  19:01:52,987 - #3 {
+INFO  19:01:52,988 - #4 }
+INFO  19:01:52,988 - #4 }
+INFO  19:01:52,999 - Program(
+  ProgName(
+   p
+  ) [ProgName]
+  NoNamesList(
+  ) [NoNamesList]
+  VErrorSemi(
+  ) [VErrorSemi]
+  MethDeclList(
+    NoMethDecl(
+    ) [NoMethDecl]
+    MethDecl(
+      TVvoid(
+       main
+      ) [TVvoid]
+      NoFormParsOccured(
+      ) [NoFormParsOccured]
+      NoVarDeclRepeat(
+      ) [NoVarDeclRepeat]
+      NoStmtListRepeat(
+      ) [NoStmtListRepeat]
+    ) [MethDecl]
+  ) [MethDeclList]
+) [Program]
+INFO  19:01:52,999 - ===================================
+INFO  19:01:53,001 - Deklairsana metoda : main na liniji 5
+INFO  19:01:53,001 - =====================================

@@ -1,0 +1,223 @@
+INFO  13:14:18,877 - Compiling source file: C:\Users\Ilija\Desktop\PP1\PP_PROJEKAT\pp1Domaci\workspace\MJCompiler\test\program.mj
+INFO  13:14:18,913 - #2 program
+INFO  13:14:18,913 - #46 test301
+INFO  13:14:18,913 - #9 namespace
+INFO  13:14:18,914 - #46 Konstante
+INFO  13:14:18,914 - #3 {
+INFO  13:14:18,914 - #19 const
+INFO  13:14:18,915 - #46 int
+INFO  13:14:18,915 - #46 jedan
+INFO  13:14:18,915 - #20 =
+INFO  13:14:18,915 - #45 2
+INFO  13:14:18,915 - #21 ;
+INFO  13:14:18,916 - #3 {
+INFO  13:14:18,916 - #4 }
+INFO  13:14:18,916 - #4 }
+INFO  13:14:18,916 - #3 {
+INFO  13:14:18,917 - #10 void
+INFO  13:14:18,917 - #46 main
+INFO  13:14:18,917 - #11 (
+INFO  13:14:18,917 - #12 )
+INFO  13:14:18,917 - #46 int
+INFO  13:14:18,918 - #46 s
+INFO  13:14:18,918 - #21 ;
+INFO  13:14:18,918 - #3 {
+INFO  13:14:18,919 - #46 s
+INFO  13:14:18,919 - #20 =
+INFO  13:14:18,920 - #45 5
+INFO  13:14:18,920 - #21 ;
+INFO  13:14:18,922 - #46 s
+INFO  13:14:18,922 - #20 =
+INFO  13:14:18,922 - #46 s
+INFO  13:14:18,922 - #36 *
+INFO  13:14:18,923 - #46 Konstante
+INFO  13:14:18,923 - #22 :
+INFO  13:14:18,923 - #22 :
+INFO  13:14:18,923 - #46 jedan
+INFO  13:14:18,923 - #35 +
+INFO  13:14:18,924 - #45 1
+INFO  13:14:18,924 - #21 ;
+INFO  13:14:18,925 - #28 print
+INFO  13:14:18,925 - #11 (
+INFO  13:14:18,925 - #46 s
+INFO  13:14:18,925 - #12 )
+INFO  13:14:18,925 - #21 ;
+INFO  13:14:18,925 - #4 }
+INFO  13:14:18,925 - #4 }
+INFO  13:14:18,934 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  NamesList(
+    NoNamesList(
+    ) [NoNamesList]
+    Names(
+      NamespaceName(
+       Konstante
+      ) [NamespaceName]
+      CDecl(
+        NoCVC(
+        ) [NoCVC]
+        ConstDeclarations(
+          IType(
+            IdType(
+             int
+            ) [IdType]
+          ) [IType]
+         jedan
+          NCBNumConst(
+           2
+          ) [NCBNumConst]
+          NoNCBLists(
+          ) [NoNCBLists]
+        ) [ConstDeclarations]
+      ) [CDecl]
+      NoMethDecl(
+      ) [NoMethDecl]
+    ) [Names]
+  ) [NamesList]
+  NoCVC(
+  ) [NoCVC]
+  MethDeclList(
+    NoMethDecl(
+    ) [NoMethDecl]
+    MethDecl(
+      TVvoid(
+       main
+      ) [TVvoid]
+      NoFormParsOccured(
+      ) [NoFormParsOccured]
+      VarDeclRepeat(
+        NoVarDeclRepeat(
+        ) [NoVarDeclRepeat]
+        VarDeclaration(
+          IType(
+            IdType(
+             int
+            ) [IdType]
+          ) [IType]
+          VarElemIdent(
+           s
+          ) [VarElemIdent]
+          NoCISLists(
+          ) [NoCISLists]
+        ) [VarDeclaration]
+      ) [VarDeclRepeat]
+      StmtListRepeat(
+        StmtListRepeat(
+          StmtListRepeat(
+            NoStmtListRepeat(
+            ) [NoStmtListRepeat]
+            StatementDesignatorStatement(
+              DesignatorStmtAss(
+                DesignatorNoIdentDoubleOccured(
+                 s
+                  NoIdentExpr(
+                  ) [NoIdentExpr]
+                ) [DesignatorNoIdentDoubleOccured]
+                AssEQUAL(
+                ) [AssEQUAL]
+                ExprTerm(
+                  Term(
+                    FactorNumConst(
+                      NumConst(
+                       5
+                      ) [NumConst]
+                    ) [FactorNumConst]
+                    NoMulopFactorLists(
+                    ) [NoMulopFactorLists]
+                  ) [Term]
+                  NoAddopTermList(
+                  ) [NoAddopTermList]
+                ) [ExprTerm]
+              ) [DesignatorStmtAss]
+            ) [StatementDesignatorStatement]
+          ) [StmtListRepeat]
+          StatementDesignatorStatement(
+            DesignatorStmtAss(
+              DesignatorNoIdentDoubleOccured(
+               s
+                NoIdentExpr(
+                ) [NoIdentExpr]
+              ) [DesignatorNoIdentDoubleOccured]
+              AssEQUAL(
+              ) [AssEQUAL]
+              ExprTerm(
+                Term(
+                  FactorDesignator(
+                    DesignatorNoIdentDoubleOccured(
+                     s
+                      NoIdentExpr(
+                      ) [NoIdentExpr]
+                    ) [DesignatorNoIdentDoubleOccured]
+                    NoBracketActPars(
+                    ) [NoBracketActPars]
+                  ) [FactorDesignator]
+                  MulopFactorLists(
+                    NoMulopFactorLists(
+                    ) [NoMulopFactorLists]
+                    MulopMUL(
+                    ) [MulopMUL]
+                    FactorDesignator(
+                      DesignatorIdentDoubleOccured(
+                       Konstante
+                       jedan
+                        NoIdentExpr(
+                        ) [NoIdentExpr]
+                      ) [DesignatorIdentDoubleOccured]
+                      NoBracketActPars(
+                      ) [NoBracketActPars]
+                    ) [FactorDesignator]
+                  ) [MulopFactorLists]
+                ) [Term]
+                AddopTermLists(
+                  NoAddopTermList(
+                  ) [NoAddopTermList]
+                  AddopPLUS(
+                  ) [AddopPLUS]
+                  Term(
+                    FactorNumConst(
+                      NumConst(
+                       1
+                      ) [NumConst]
+                    ) [FactorNumConst]
+                    NoMulopFactorLists(
+                    ) [NoMulopFactorLists]
+                  ) [Term]
+                ) [AddopTermLists]
+              ) [ExprTerm]
+            ) [DesignatorStmtAss]
+          ) [StatementDesignatorStatement]
+        ) [StmtListRepeat]
+        StatementPrint(
+          ExprTerm(
+            Term(
+              FactorDesignator(
+                DesignatorNoIdentDoubleOccured(
+                 s
+                  NoIdentExpr(
+                  ) [NoIdentExpr]
+                ) [DesignatorNoIdentDoubleOccured]
+                NoBracketActPars(
+                ) [NoBracketActPars]
+              ) [FactorDesignator]
+              NoMulopFactorLists(
+              ) [NoMulopFactorLists]
+            ) [Term]
+            NoAddopTermList(
+            ) [NoAddopTermList]
+          ) [ExprTerm]
+          NoCommaConstOcc(
+          ) [NoCommaConstOcc]
+        ) [StatementPrint]
+      ) [StmtListRepeat]
+    ) [MethDecl]
+  ) [MethDeclList]
+) [Program]
+INFO  13:14:18,935 - ===================================
+INFO  13:14:18,938 - Deklairsan namespace : Konstante na liniji 5
+INFO  13:14:18,938 - deklarisana konstanta jedan sa vrednosti 2 na liniji 6 na liniji 6
+INFO  13:14:18,938 - Deklairsana metoda : main na liniji 12
+INFO  13:14:18,938 - Deklairsana promenljiva : s na liniji 13
+INFO  13:14:18,938 - =====================================
+INFO  13:14:18,942 - Parsiranje uspesno zavrseno!

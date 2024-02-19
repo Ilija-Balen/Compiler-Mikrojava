@@ -1,0 +1,210 @@
+INFO  12:45:51,219 - Compiling source file: C:\Users\Ilija\Desktop\PP1\PP_PROJEKAT\pp1Domaci\workspace\MJCompiler\test\program.mj
+INFO  12:45:51,274 - #2 program
+INFO  12:45:51,274 - #46 test301
+INFO  12:45:51,274 - #9 namespace
+INFO  12:45:51,275 - #46 Konstante
+INFO  12:45:51,275 - #3 {
+INFO  12:45:51,276 - #19 const
+INFO  12:45:51,276 - #46 int
+INFO  12:45:51,276 - #46 jedan
+INFO  12:45:51,277 - #20 =
+INFO  12:45:51,277 - #45 1
+INFO  12:45:51,277 - #21 ;
+INFO  12:45:51,277 - #3 {
+INFO  12:45:51,278 - #4 }
+INFO  12:45:51,278 - #4 }
+INFO  12:45:51,278 - #3 {
+INFO  12:45:51,279 - #10 void
+INFO  12:45:51,279 - #46 main
+INFO  12:45:51,279 - #11 (
+INFO  12:45:51,279 - #12 )
+INFO  12:45:51,280 - #46 int
+INFO  12:45:51,281 - #46 s
+INFO  12:45:51,281 - #21 ;
+INFO  12:45:51,282 - #3 {
+INFO  12:45:51,282 - #46 s
+INFO  12:45:51,283 - #20 =
+INFO  12:45:51,283 - #45 5
+INFO  12:45:51,284 - #21 ;
+INFO  12:45:51,287 - #46 s
+INFO  12:45:51,287 - #20 =
+INFO  12:45:51,287 - #46 s
+INFO  12:45:51,287 - #35 +
+INFO  12:45:51,288 - #46 Konstante
+INFO  12:45:51,289 - #22 :
+INFO  12:45:51,289 - #22 :
+INFO  12:45:51,289 - #46 jedan
+INFO  12:45:51,289 - #21 ;
+INFO  12:45:51,290 - #28 print
+INFO  12:45:51,290 - #11 (
+INFO  12:45:51,290 - #46 s
+INFO  12:45:51,290 - #12 )
+INFO  12:45:51,290 - #21 ;
+INFO  12:45:51,290 - #4 }
+INFO  12:45:51,291 - #4 }
+INFO  12:45:51,298 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  NamesList(
+    NoNamesList(
+    ) [NoNamesList]
+    Names(
+      NamespaceName(
+       Konstante
+      ) [NamespaceName]
+      CDecl(
+        NoCVC(
+        ) [NoCVC]
+        ConstDeclarations(
+          IType(
+            IdType(
+             int
+            ) [IdType]
+          ) [IType]
+         jedan
+          NCBNumConst(
+           1
+          ) [NCBNumConst]
+          NoNCBLists(
+          ) [NoNCBLists]
+        ) [ConstDeclarations]
+      ) [CDecl]
+      NoMethDecl(
+      ) [NoMethDecl]
+    ) [Names]
+  ) [NamesList]
+  NoCVC(
+  ) [NoCVC]
+  MethDeclList(
+    NoMethDecl(
+    ) [NoMethDecl]
+    MethDecl(
+      TVvoid(
+       main
+      ) [TVvoid]
+      NoFormParsOccured(
+      ) [NoFormParsOccured]
+      VarDeclRepeat(
+        NoVarDeclRepeat(
+        ) [NoVarDeclRepeat]
+        VarDeclaration(
+          IType(
+            IdType(
+             int
+            ) [IdType]
+          ) [IType]
+          VarElemIdent(
+           s
+          ) [VarElemIdent]
+          NoCISLists(
+          ) [NoCISLists]
+        ) [VarDeclaration]
+      ) [VarDeclRepeat]
+      StmtListRepeat(
+        StmtListRepeat(
+          StmtListRepeat(
+            NoStmtListRepeat(
+            ) [NoStmtListRepeat]
+            StatementDesignatorStatement(
+              DesignatorStmtAss(
+                DesignatorNoIdentDoubleOccured(
+                 s
+                  NoIdentExpr(
+                  ) [NoIdentExpr]
+                ) [DesignatorNoIdentDoubleOccured]
+                AssEQUAL(
+                ) [AssEQUAL]
+                ExprTerm(
+                  Term(
+                    FactorNumConst(
+                      NumConst(
+                       5
+                      ) [NumConst]
+                    ) [FactorNumConst]
+                    NoMulopFactorLists(
+                    ) [NoMulopFactorLists]
+                  ) [Term]
+                  NoAddopTermList(
+                  ) [NoAddopTermList]
+                ) [ExprTerm]
+              ) [DesignatorStmtAss]
+            ) [StatementDesignatorStatement]
+          ) [StmtListRepeat]
+          StatementDesignatorStatement(
+            DesignatorStmtAss(
+              DesignatorNoIdentDoubleOccured(
+               s
+                NoIdentExpr(
+                ) [NoIdentExpr]
+              ) [DesignatorNoIdentDoubleOccured]
+              AssEQUAL(
+              ) [AssEQUAL]
+              ExprTerm(
+                Term(
+                  FactorDesignator(
+                    DesignatorNoIdentDoubleOccured(
+                     s
+                      NoIdentExpr(
+                      ) [NoIdentExpr]
+                    ) [DesignatorNoIdentDoubleOccured]
+                    NoBracketActPars(
+                    ) [NoBracketActPars]
+                  ) [FactorDesignator]
+                  NoMulopFactorLists(
+                  ) [NoMulopFactorLists]
+                ) [Term]
+                AddopTermLists(
+                  NoAddopTermList(
+                  ) [NoAddopTermList]
+                  AddopPLUS(
+                  ) [AddopPLUS]
+                  Term(
+                    FactorDesignator(
+                      DesignatorIdentDoubleOccured(
+                       Konstante
+                       jedan
+                        NoIdentExpr(
+                        ) [NoIdentExpr]
+                      ) [DesignatorIdentDoubleOccured]
+                      NoBracketActPars(
+                      ) [NoBracketActPars]
+                    ) [FactorDesignator]
+                    NoMulopFactorLists(
+                    ) [NoMulopFactorLists]
+                  ) [Term]
+                ) [AddopTermLists]
+              ) [ExprTerm]
+            ) [DesignatorStmtAss]
+          ) [StatementDesignatorStatement]
+        ) [StmtListRepeat]
+        StatementPrint(
+          ExprTerm(
+            Term(
+              FactorDesignator(
+                DesignatorNoIdentDoubleOccured(
+                 s
+                  NoIdentExpr(
+                  ) [NoIdentExpr]
+                ) [DesignatorNoIdentDoubleOccured]
+                NoBracketActPars(
+                ) [NoBracketActPars]
+              ) [FactorDesignator]
+              NoMulopFactorLists(
+              ) [NoMulopFactorLists]
+            ) [Term]
+            NoAddopTermList(
+            ) [NoAddopTermList]
+          ) [ExprTerm]
+          NoCommaConstOcc(
+          ) [NoCommaConstOcc]
+        ) [StatementPrint]
+      ) [StmtListRepeat]
+    ) [MethDecl]
+  ) [MethDeclList]
+) [Program]
+INFO  12:45:51,298 - ===================================
+INFO  12:45:51,330 - Deklairsan namespace : Konstante na liniji 5
+INFO  12:45:51,330 - deklarisana konstanta jedan sa vrednosti 1 na liniji 6 na liniji 6
+INFO  12:45:51,330 - Deklairsana metoda : main na liniji 12
+INFO  12:45:51,330 - Deklairsana promenljiva : s na liniji 13

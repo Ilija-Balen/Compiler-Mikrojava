@@ -1,0 +1,32 @@
+INFO  12:31:59,558 - Compiling source file: C:\Users\Ilija\Desktop\PP1\PP_PROJEKAT\pp1Domaci\workspace\MJCompiler\test\program.mj
+INFO  12:31:59,589 - #2 program
+INFO  12:31:59,589 - #48 p
+INFO  12:31:59,589 - #9 namespace
+INFO  12:31:59,589 - #48 sizes
+INFO  12:31:59,589 - #3 {
+INFO  12:31:59,589 - #19 const
+INFO  12:31:59,589 - #48 int
+INFO  12:31:59,590 - #48 tableSize
+INFO  12:31:59,590 - #20 =
+INFO  12:31:59,590 - #47 10
+INFO  12:31:59,590 - #21 ;
+INFO  12:31:59,591 - #3 {
+INFO  12:31:59,591 - #4 }
+INFO  12:31:59,591 - #4 }
+INFO  12:31:59,592 - #48 int
+INFO  12:31:59,592 - #48 x
+INFO  12:31:59,592 - #21 ;
+INFO  12:31:59,593 - #48 int
+INFO  12:31:59,593 - #48 columns
+INFO  12:31:59,593 - #21 ;
+INFO  12:31:59,593 - #3 {
+INFO  12:31:59,593 - #10 void
+INFO  12:31:59,593 - #48 f
+INFO  12:31:59,594 - #11 (
+INFO  12:31:59,594 - #48 int
+INFO  12:31:59,594 - #48 k
+INFO  12:31:59,594 - #12 )
+INFO  12:31:59,594 - #3 {
+ERROR 12:31:59,594 - 
+Sintaksna greska na liniji 11
+ERROR 12:31:59,595 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 11

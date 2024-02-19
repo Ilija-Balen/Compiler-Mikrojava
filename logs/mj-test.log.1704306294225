@@ -1,0 +1,68 @@
+INFO  19:23:31,629 - Compiling source file: C:\Users\Ilija\Desktop\PP1\PP_PROJEKAT\pp1Domaci\workspace\MJCompiler\test\program.mj
+INFO  19:23:31,685 - #2 program
+INFO  19:23:31,686 - #46 p
+INFO  19:23:31,686 - #3 {
+INFO  19:23:31,687 - #46 int
+INFO  19:23:31,688 - #46 main
+INFO  19:23:31,688 - #11 (
+INFO  19:23:31,688 - #12 )
+INFO  19:23:31,689 - #3 {
+INFO  19:23:31,690 - #26 return
+INFO  19:23:31,690 - #45 1
+INFO  19:23:31,692 - #21 ;
+INFO  19:23:31,695 - #4 }
+INFO  19:23:31,695 - #4 }
+INFO  19:23:31,703 - Program(
+  ProgName(
+   p
+  ) [ProgName]
+  NoNamesList(
+  ) [NoNamesList]
+  NoCVC(
+  ) [NoCVC]
+  MethDeclList(
+    NoMethDecl(
+    ) [NoMethDecl]
+    MethDecl(
+      TVtype(
+        IType(
+          IdType(
+           int
+          ) [IdType]
+        ) [IType]
+       main
+      ) [TVtype]
+      NoFormParsOccured(
+      ) [NoFormParsOccured]
+      NoVarDeclRepeat(
+      ) [NoVarDeclRepeat]
+      StmtListRepeat(
+        NoStmtListRepeat(
+        ) [NoStmtListRepeat]
+        StatementReturn(
+          EOcc(
+            ExprTerm(
+              NoMinusOcc(
+              ) [NoMinusOcc]
+              Term(
+                FactorNumConst(
+                  NumConst(
+                   1
+                  ) [NumConst]
+                ) [FactorNumConst]
+                NoMulopFactorLists(
+                ) [NoMulopFactorLists]
+              ) [Term]
+              NoAddopTermList(
+              ) [NoAddopTermList]
+            ) [ExprTerm]
+          ) [EOcc]
+        ) [StatementReturn]
+      ) [StmtListRepeat]
+    ) [MethDecl]
+  ) [MethDeclList]
+) [Program]
+INFO  19:23:31,703 - ===================================
+INFO  19:23:41,402 - Deklairsana metoda : main na liniji 4
+INFO  19:24:12,394 - =====================================
+INFO  19:24:15,194 - Parsiranje uspesno zavrseno!

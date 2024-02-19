@@ -1,0 +1,129 @@
+INFO  15:31:21,631 - Compiling source file: C:\Users\Ilija\Desktop\PP1\PP_PROJEKAT\pp1Domaci\workspace\MJCompiler\test\program.mj
+INFO  15:31:21,666 - #2 program
+INFO  15:31:21,667 - #46 test301
+INFO  15:31:21,667 - #9 namespace
+INFO  15:31:21,668 - #46 Nizovi
+INFO  15:31:21,668 - #3 {
+INFO  15:31:21,668 - #46 int
+INFO  15:31:21,668 - #46 niz
+INFO  15:31:21,668 - #5 [
+INFO  15:31:21,668 - #6 ]
+INFO  15:31:21,668 - #21 ;
+INFO  15:31:21,669 - #3 {
+INFO  15:31:21,669 - #4 }
+INFO  15:31:21,670 - #4 }
+INFO  15:31:21,670 - #3 {
+INFO  15:31:21,670 - #10 void
+INFO  15:31:21,670 - #46 main
+INFO  15:31:21,670 - #11 (
+INFO  15:31:21,670 - #12 )
+INFO  15:31:21,671 - #3 {
+INFO  15:31:21,671 - #46 Nizovi
+INFO  15:31:21,671 - #22 :
+INFO  15:31:21,672 - #22 :
+INFO  15:31:21,672 - #46 niz
+INFO  15:31:21,672 - #20 =
+INFO  15:31:21,673 - #34 new
+INFO  15:31:21,673 - #46 int
+INFO  15:31:21,673 - #5 [
+INFO  15:31:21,673 - #45 3
+INFO  15:31:21,674 - #6 ]
+INFO  15:31:21,675 - #21 ;
+INFO  15:31:21,675 - #4 }
+INFO  15:31:21,676 - #4 }
+INFO  15:31:21,683 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  NamesList(
+    NoNamesList(
+    ) [NoNamesList]
+    Names(
+     Nizovi
+      VDecl(
+        NoCVC(
+        ) [NoCVC]
+        VarDeclaration(
+          IType(
+            IdType(
+             int
+            ) [IdType]
+          ) [IType]
+          VarElemArray(
+           niz
+          ) [VarElemArray]
+          NoCISLists(
+          ) [NoCISLists]
+        ) [VarDeclaration]
+      ) [VDecl]
+      NoMethDecl(
+      ) [NoMethDecl]
+    ) [Names]
+  ) [NamesList]
+  NoCVC(
+  ) [NoCVC]
+  MethDeclList(
+    NoMethDecl(
+    ) [NoMethDecl]
+    MethDecl(
+      TVvoid(
+       main
+      ) [TVvoid]
+      NoFormParsOccured(
+      ) [NoFormParsOccured]
+      NoVarDeclRepeat(
+      ) [NoVarDeclRepeat]
+      StmtListRepeat(
+        NoStmtListRepeat(
+        ) [NoStmtListRepeat]
+        StatementDesignatorStatement(
+          DesignatorStmtAss(
+            DesignatorIdentDoubleOccured(
+             Nizovi
+             niz
+              NoIdentExpr(
+              ) [NoIdentExpr]
+            ) [DesignatorIdentDoubleOccured]
+            AssEQUAL(
+            ) [AssEQUAL]
+            ExprTerm(
+              Term(
+                FactorType(
+                  IType(
+                    IdType(
+                     int
+                    ) [IdType]
+                  ) [IType]
+                  ExprTerm(
+                    Term(
+                      FactorNumConst(
+                        NumConst(
+                         3
+                        ) [NumConst]
+                      ) [FactorNumConst]
+                      NoMulopFactorLists(
+                      ) [NoMulopFactorLists]
+                    ) [Term]
+                    NoAddopTermList(
+                    ) [NoAddopTermList]
+                  ) [ExprTerm]
+                ) [FactorType]
+                NoMulopFactorLists(
+                ) [NoMulopFactorLists]
+              ) [Term]
+              NoAddopTermList(
+              ) [NoAddopTermList]
+            ) [ExprTerm]
+          ) [DesignatorStmtAss]
+        ) [StatementDesignatorStatement]
+      ) [StmtListRepeat]
+    ) [MethDecl]
+  ) [MethDeclList]
+) [Program]
+INFO  15:31:21,683 - ===================================
+INFO  15:31:21,685 - Tip arrType: 1 na liniji 7
+INFO  15:31:21,685 - Deklairsana promenljiva : niz na liniji 7
+INFO  15:31:21,686 - Deklairsan namespace : Nizovi na liniji 6
+INFO  15:31:21,686 - Deklairsana metoda : main na liniji 13
+INFO  15:31:21,686 - =====================================
+INFO  15:31:21,687 - Parsiranje uspesno zavrseno!

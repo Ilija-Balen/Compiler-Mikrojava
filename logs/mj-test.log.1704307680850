@@ -1,0 +1,12 @@
+INFO  19:47:15,483 - Compiling source file: C:\Users\Ilija\Desktop\PP1\PP_PROJEKAT\pp1Domaci\workspace\MJCompiler\test\program.mj
+INFO  19:47:15,541 - #2 program
+INFO  19:47:15,541 - #46 p
+INFO  19:47:15,541 - #3 {
+INFO  19:47:15,543 - #46 bool
+INFO  19:47:15,544 - #46 main
+INFO  19:47:15,544 - #11 (
+INFO  19:47:15,544 - #12 )
+INFO  19:47:15,545 - #3 {
+INFO  19:47:15,545 - #26 return
+INFO  19:47:15,546 - #47 true
+INFO  19:47:15,547 - #21 ;

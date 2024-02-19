@@ -1,0 +1,23 @@
+INFO  19:50:15,955 - Compiling source file: C:\Users\Ilija\Desktop\PP1\PP_PROJEKAT\pp1Domaci\workspace\MJCompiler\test\program.mj
+INFO  19:50:15,992 - #2 program
+INFO  19:50:15,992 - #46 p
+INFO  19:50:15,992 - #3 {
+INFO  19:50:15,994 - #46 bool
+INFO  19:50:15,994 - #46 main
+INFO  19:50:15,994 - #11 (
+INFO  19:50:15,994 - #12 )
+INFO  19:50:15,995 - #3 {
+INFO  19:50:15,995 - #19 const
+ERROR 19:50:15,995 - 
+Sintaksna greska na liniji 6
+INFO  19:50:15,995 - #46 bool
+INFO  19:50:15,995 - #46 tacno
+INFO  19:50:15,995 - #20 =
+INFO  19:50:15,996 - #47 true
+INFO  19:50:15,996 - #21 ;
+INFO  19:50:15,996 - #26 return
+INFO  19:50:15,996 - #46 tacno
+INFO  19:50:15,996 - #21 ;
+INFO  19:50:15,996 - #4 }
+INFO  19:50:15,996 - #4 }
+ERROR 19:50:15,997 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 10

@@ -1,0 +1,194 @@
+INFO  11:55:47,838 - Compiling source file: C:\Users\Ilija\Desktop\PP1\PP_PROJEKAT\pp1Domaci\workspace\MJCompiler\test\program.mj
+INFO  11:55:47,872 - #2 program
+INFO  11:55:47,872 - #46 test301
+INFO  11:55:47,872 - #3 {
+INFO  11:55:47,873 - #10 void
+INFO  11:55:47,874 - #46 main
+INFO  11:55:47,874 - #11 (
+INFO  11:55:47,874 - #12 )
+INFO  11:55:47,874 - #46 int
+INFO  11:55:47,875 - #46 s
+INFO  11:55:47,875 - #21 ;
+INFO  11:55:47,875 - #3 {
+INFO  11:55:47,876 - #46 s
+INFO  11:55:47,876 - #20 =
+INFO  11:55:47,877 - #45 5
+INFO  11:55:47,877 - #21 ;
+INFO  11:55:47,879 - #46 s
+INFO  11:55:47,879 - #20 =
+INFO  11:55:47,879 - #46 s
+INFO  11:55:47,879 - #35 +
+INFO  11:55:47,880 - #45 1
+INFO  11:55:47,880 - #35 +
+INFO  11:55:47,882 - #45 1
+INFO  11:55:47,882 - #35 +
+INFO  11:55:47,882 - #45 1
+INFO  11:55:47,882 - #21 ;
+INFO  11:55:47,882 - #28 print
+INFO  11:55:47,882 - #11 (
+INFO  11:55:47,882 - #46 s
+INFO  11:55:47,882 - #12 )
+INFO  11:55:47,882 - #21 ;
+INFO  11:55:47,883 - #4 }
+INFO  11:55:47,883 - #4 }
+INFO  11:55:47,892 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  NoNamesList(
+  ) [NoNamesList]
+  NoCVC(
+  ) [NoCVC]
+  MethDeclList(
+    NoMethDecl(
+    ) [NoMethDecl]
+    MethDecl(
+      TVvoid(
+       main
+      ) [TVvoid]
+      NoFormParsOccured(
+      ) [NoFormParsOccured]
+      VarDeclRepeat(
+        NoVarDeclRepeat(
+        ) [NoVarDeclRepeat]
+        VarDeclaration(
+          IType(
+            IdType(
+             int
+            ) [IdType]
+          ) [IType]
+          VarElemIdent(
+           s
+          ) [VarElemIdent]
+          NoCISLists(
+          ) [NoCISLists]
+        ) [VarDeclaration]
+      ) [VarDeclRepeat]
+      StmtListRepeat(
+        StmtListRepeat(
+          StmtListRepeat(
+            NoStmtListRepeat(
+            ) [NoStmtListRepeat]
+            StatementDesignatorStatement(
+              DesignatorStmtAss(
+                DesignatorNoIdentDoubleOccured(
+                 s
+                  NoIdentExpr(
+                  ) [NoIdentExpr]
+                ) [DesignatorNoIdentDoubleOccured]
+                AssEQUAL(
+                ) [AssEQUAL]
+                ExprTerm(
+                  Term(
+                    FactorNumConst(
+                      NumConst(
+                       5
+                      ) [NumConst]
+                    ) [FactorNumConst]
+                    NoMulopFactorLists(
+                    ) [NoMulopFactorLists]
+                  ) [Term]
+                  NoAddopTermList(
+                  ) [NoAddopTermList]
+                ) [ExprTerm]
+              ) [DesignatorStmtAss]
+            ) [StatementDesignatorStatement]
+          ) [StmtListRepeat]
+          StatementDesignatorStatement(
+            DesignatorStmtAss(
+              DesignatorNoIdentDoubleOccured(
+               s
+                NoIdentExpr(
+                ) [NoIdentExpr]
+              ) [DesignatorNoIdentDoubleOccured]
+              AssEQUAL(
+              ) [AssEQUAL]
+              ExprTerm(
+                Term(
+                  FactorDesignator(
+                    DesignatorNoIdentDoubleOccured(
+                     s
+                      NoIdentExpr(
+                      ) [NoIdentExpr]
+                    ) [DesignatorNoIdentDoubleOccured]
+                    NoBracketActPars(
+                    ) [NoBracketActPars]
+                  ) [FactorDesignator]
+                  NoMulopFactorLists(
+                  ) [NoMulopFactorLists]
+                ) [Term]
+                AddopTermLists(
+                  AddopTermLists(
+                    AddopTermLists(
+                      NoAddopTermList(
+                      ) [NoAddopTermList]
+                      AddopPLUS(
+                      ) [AddopPLUS]
+                      Term(
+                        FactorNumConst(
+                          NumConst(
+                           1
+                          ) [NumConst]
+                        ) [FactorNumConst]
+                        NoMulopFactorLists(
+                        ) [NoMulopFactorLists]
+                      ) [Term]
+                    ) [AddopTermLists]
+                    AddopPLUS(
+                    ) [AddopPLUS]
+                    Term(
+                      FactorNumConst(
+                        NumConst(
+                         1
+                        ) [NumConst]
+                      ) [FactorNumConst]
+                      NoMulopFactorLists(
+                      ) [NoMulopFactorLists]
+                    ) [Term]
+                  ) [AddopTermLists]
+                  AddopPLUS(
+                  ) [AddopPLUS]
+                  Term(
+                    FactorNumConst(
+                      NumConst(
+                       1
+                      ) [NumConst]
+                    ) [FactorNumConst]
+                    NoMulopFactorLists(
+                    ) [NoMulopFactorLists]
+                  ) [Term]
+                ) [AddopTermLists]
+              ) [ExprTerm]
+            ) [DesignatorStmtAss]
+          ) [StatementDesignatorStatement]
+        ) [StmtListRepeat]
+        StatementPrint(
+          ExprTerm(
+            Term(
+              FactorDesignator(
+                DesignatorNoIdentDoubleOccured(
+                 s
+                  NoIdentExpr(
+                  ) [NoIdentExpr]
+                ) [DesignatorNoIdentDoubleOccured]
+                NoBracketActPars(
+                ) [NoBracketActPars]
+              ) [FactorDesignator]
+              NoMulopFactorLists(
+              ) [NoMulopFactorLists]
+            ) [Term]
+            NoAddopTermList(
+            ) [NoAddopTermList]
+          ) [ExprTerm]
+          NoCommaConstOcc(
+          ) [NoCommaConstOcc]
+        ) [StatementPrint]
+      ) [StmtListRepeat]
+    ) [MethDecl]
+  ) [MethDeclList]
+) [Program]
+INFO  11:55:47,892 - ===================================
+INFO  11:55:47,895 - Deklairsana metoda : main na liniji 7
+INFO  11:55:47,895 - Deklairsana promenljiva : s na liniji 8
+INFO  11:55:47,895 - =====================================
+INFO  11:55:47,899 - Parsiranje uspesno zavrseno!

@@ -1,0 +1,40 @@
+INFO  18:14:58,003 - Compiling source file: C:\Users\Ilija\Desktop\PP1\PP_PROJEKAT\pp1Domaci\workspace\MJCompiler\test\program.mj
+INFO  18:14:58,037 - #2 program
+INFO  18:14:58,037 - #46 p
+INFO  18:14:58,037 - #19 const
+INFO  18:14:58,038 - #46 int
+INFO  18:14:58,038 - #46 row
+INFO  18:14:58,038 - #20 =
+INFO  18:14:58,039 - #45 5
+INFO  18:14:58,039 - #21 ;
+INFO  18:14:58,039 - #3 {
+INFO  18:14:58,039 - #4 }
+INFO  18:14:58,048 - Program(
+  ProgName(
+   p
+  ) [ProgName]
+  NoNamesList(
+  ) [NoNamesList]
+  CDecl(
+    NoCVC(
+    ) [NoCVC]
+    ConstDeclarations(
+      IType(
+        IdType(
+         int
+        ) [IdType]
+      ) [IType]
+     row
+      NCBNumConst(
+       5
+      ) [NCBNumConst]
+      NoNCBLists(
+      ) [NoNCBLists]
+    ) [ConstDeclarations]
+  ) [CDecl]
+  NoMethDecl(
+  ) [NoMethDecl]
+) [Program]
+INFO  18:14:58,049 - ===================================
+INFO  18:14:58,051 - deklarisana konstanta row sa vrednosti 5 na liniji 2 na liniji 2
+INFO  18:14:58,051 - =====================================

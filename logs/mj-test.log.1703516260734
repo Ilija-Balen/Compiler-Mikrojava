@@ -1,0 +1,25 @@
+INFO  15:52:14,467 - Compiling source file: C:\Users\Ilija\Desktop\PP1\PP_PROJEKAT\pp1Domaci\workspace\MJCompiler\test\program.mj
+INFO  15:52:14,500 - #2 program
+INFO  15:52:14,500 - #48 p
+INFO  15:52:14,500 - #48 int
+INFO  15:52:14,501 - #48 row
+INFO  15:52:14,501 - #21 ;
+INFO  15:52:14,502 - #3 {
+INFO  15:52:14,502 - #10 void
+INFO  15:52:14,503 - #48 f
+INFO  15:52:14,503 - #11 (
+INFO  15:52:14,503 - #48 int
+INFO  15:52:14,503 - #48 m
+INFO  15:52:14,504 - #12 )
+INFO  15:52:14,504 - #3 {
+INFO  15:52:14,504 - #48 row
+INFO  15:52:14,505 - #20 =
+INFO  15:52:14,506 - #47 5
+INFO  15:52:14,507 - #21 ;
+INFO  15:52:14,509 - #48 row
+INFO  15:52:14,510 - #20 =
+INFO  15:52:14,510 - #48 m
+INFO  15:52:14,510 - #21 ;
+ERROR 15:52:14,510 - 
+Sintaksna greska na liniji 8
+ERROR 15:52:14,510 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 8

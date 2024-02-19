@@ -1,0 +1,90 @@
+INFO  17:52:59,069 - Compiling source file: C:\Users\Ilija\Desktop\PP1\PP_PROJEKAT\pp1Domaci\workspace\MJCompiler\test\program.mj
+INFO  17:52:59,104 - #2 program
+INFO  17:52:59,104 - #46 p
+INFO  17:52:59,104 - #19 const
+INFO  17:52:59,105 - #46 int
+INFO  17:52:59,105 - #46 row
+INFO  17:52:59,105 - #20 =
+INFO  17:52:59,105 - #45 5
+INFO  17:52:59,105 - #21 ;
+INFO  17:52:59,106 - #3 {
+INFO  17:52:59,106 - #46 int
+INFO  17:52:59,106 - #46 main
+INFO  17:52:59,107 - #11 (
+INFO  17:52:59,107 - #12 )
+INFO  17:52:59,107 - #3 {
+INFO  17:52:59,108 - #26 return
+INFO  17:52:59,108 - #45 1
+INFO  17:52:59,109 - #21 ;
+INFO  17:52:59,110 - #4 }
+INFO  17:52:59,111 - #4 }
+INFO  17:52:59,121 - Program(
+  ProgName(
+   p
+  ) [ProgName]
+  NoNamesList(
+  ) [NoNamesList]
+  CDecl(
+    NoCVC(
+    ) [NoCVC]
+    ConstDeclarations(
+      IType(
+        IdType(
+         int
+        ) [IdType]
+      ) [IType]
+     row
+      NCBNumConst(
+       5
+      ) [NCBNumConst]
+      NoNCBLists(
+      ) [NoNCBLists]
+    ) [ConstDeclarations]
+  ) [CDecl]
+  MethDeclList(
+    NoMethDecl(
+    ) [NoMethDecl]
+    MethDecl(
+      TVtype(
+        IType(
+          IdType(
+           int
+          ) [IdType]
+        ) [IType]
+       main
+      ) [TVtype]
+      NoFormParsOccured(
+      ) [NoFormParsOccured]
+      NoVarDeclRepeat(
+      ) [NoVarDeclRepeat]
+      StmtListRepeat(
+        NoStmtListRepeat(
+        ) [NoStmtListRepeat]
+        StatementReturn(
+          EOcc(
+            ExprTerm(
+              NoMinusOcc(
+              ) [NoMinusOcc]
+              Term(
+                FactorNumConst(
+                  NumConst(
+                   1
+                  ) [NumConst]
+                ) [FactorNumConst]
+                NoMulopFactorLists(
+                ) [NoMulopFactorLists]
+              ) [Term]
+              NoAddopTermList(
+              ) [NoAddopTermList]
+            ) [ExprTerm]
+          ) [EOcc]
+        ) [StatementReturn]
+      ) [StmtListRepeat]
+    ) [MethDecl]
+  ) [MethDeclList]
+) [Program]
+INFO  17:52:59,122 - ===================================
+INFO  17:52:59,124 - deklarisana konstanta row sa vrednosti 5 na liniji 2 na liniji 2
+INFO  17:52:59,124 - Deklairsana metoda : main na liniji 5
+ERROR 17:52:59,124 - Semanticka greska na liniji 5: funkcija main nema return iskaz!
+INFO  17:52:59,124 - =====================================

@@ -1,0 +1,25 @@
+INFO  18:15:04,231 - Compiling source file: C:\Users\Ilija\Desktop\PP1\PP_PROJEKAT\pp1Domaci\workspace\MJCompiler\test\program.mj
+INFO  18:15:04,265 - #2 program
+INFO  18:15:04,266 - #46 p
+INFO  18:15:04,266 - #19 const
+INFO  18:15:04,267 - #46 int
+INFO  18:15:04,267 - #46 row
+INFO  18:15:04,267 - #21 ;
+ERROR 18:15:04,267 - 
+Sintaksna greska na liniji 2
+INFO  18:15:04,267 - #3 {
+INFO  18:15:04,267 - #4 }
+ERROR 18:15:04,268 - Izvrsen oporavak do ; u liniji 8
+INFO  18:15:04,279 - Program(
+  ProgName(
+   p
+  ) [ProgName]
+  NoNamesList(
+  ) [NoNamesList]
+  VErrorSemi(
+  ) [VErrorSemi]
+  NoMethDecl(
+  ) [NoMethDecl]
+) [Program]
+INFO  18:15:04,279 - ===================================
+INFO  18:15:04,281 - =====================================

@@ -1,0 +1,39 @@
+INFO  19:04:51,419 - Compiling source file: C:\Users\Ilija\Desktop\PP1\PP_PROJEKAT\pp1Domaci\workspace\MJCompiler\test\program.mj
+INFO  19:04:51,454 - #2 program
+INFO  19:04:51,454 - #46 p
+INFO  19:04:51,454 - #3 {
+INFO  19:04:51,455 - #10 void
+INFO  19:04:51,456 - #46 main
+INFO  19:04:51,456 - #11 (
+INFO  19:04:51,456 - #12 )
+INFO  19:04:51,456 - #3 {
+INFO  19:04:51,457 - #4 }
+INFO  19:04:51,457 - #4 }
+INFO  19:04:51,468 - Program(
+  ProgName(
+   p
+  ) [ProgName]
+  NoNamesList(
+  ) [NoNamesList]
+  NoCVC(
+  ) [NoCVC]
+  MethDeclList(
+    NoMethDecl(
+    ) [NoMethDecl]
+    MethDecl(
+      TVvoid(
+       main
+      ) [TVvoid]
+      NoFormParsOccured(
+      ) [NoFormParsOccured]
+      NoVarDeclRepeat(
+      ) [NoVarDeclRepeat]
+      NoStmtListRepeat(
+      ) [NoStmtListRepeat]
+    ) [MethDecl]
+  ) [MethDeclList]
+) [Program]
+INFO  19:04:51,468 - ===================================
+INFO  19:04:51,470 - Deklairsana metoda : main na liniji 4
+INFO  19:04:51,470 - =====================================
+INFO  19:04:51,471 - Parsiranje uspesno zavrseno!

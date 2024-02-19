@@ -1,0 +1,85 @@
+INFO  21:51:57,633 - Compiling source file: C:\Users\Ilija\Desktop\PP1\PP_PROJEKAT\pp1Domaci\workspace\MJCompiler\test\program.mj
+INFO  21:51:57,669 - #2 program
+INFO  21:51:57,669 - #46 p
+INFO  21:51:57,669 - #46 bool
+INFO  21:51:57,670 - #46 a
+INFO  21:51:57,670 - #21 ;
+INFO  21:51:57,671 - #3 {
+INFO  21:51:57,671 - #46 bool
+INFO  21:51:57,672 - #46 main
+INFO  21:51:57,672 - #11 (
+INFO  21:51:57,672 - #12 )
+INFO  21:51:57,672 - #3 {
+INFO  21:51:57,673 - #26 return
+INFO  21:51:57,673 - #48 true
+INFO  21:51:57,673 - #21 ;
+INFO  21:51:57,675 - #4 }
+INFO  21:51:57,675 - #4 }
+INFO  21:51:57,682 - Program(
+  ProgName(
+   p
+  ) [ProgName]
+  NoNamesList(
+  ) [NoNamesList]
+  VDecl(
+    NoCVC(
+    ) [NoCVC]
+    VarDeclaration(
+      IType(
+        IdType(
+         bool
+        ) [IdType]
+      ) [IType]
+      VarElemIdent(
+       a
+      ) [VarElemIdent]
+      NoCISLists(
+      ) [NoCISLists]
+    ) [VarDeclaration]
+  ) [VDecl]
+  MethDeclList(
+    NoMethDecl(
+    ) [NoMethDecl]
+    MethDecl(
+      TVtype(
+        IType(
+          IdType(
+           bool
+          ) [IdType]
+        ) [IType]
+       main
+      ) [TVtype]
+      NoFormParsOccured(
+      ) [NoFormParsOccured]
+      NoVarDeclRepeat(
+      ) [NoVarDeclRepeat]
+      StmtListRepeat(
+        NoStmtListRepeat(
+        ) [NoStmtListRepeat]
+        StatementReturn(
+          EOcc(
+            ExprTerm(
+              Term(
+                FactorBoolConst(
+                  BoolConst(
+                   true
+                  ) [BoolConst]
+                ) [FactorBoolConst]
+                NoMulopFactorLists(
+                ) [NoMulopFactorLists]
+              ) [Term]
+              NoAddopTermList(
+              ) [NoAddopTermList]
+            ) [ExprTerm]
+          ) [EOcc]
+        ) [StatementReturn]
+      ) [StmtListRepeat]
+    ) [MethDecl]
+  ) [MethDeclList]
+) [Program]
+INFO  21:51:57,682 - ===================================
+INFO  21:51:57,685 - Deklairsana promenljiva : a na liniji 2
+INFO  21:51:57,685 - Deklairsana metoda : main na liniji 5
+ERROR 21:51:57,685 - Greska na liniji 8 : tip Expr = - Term nije INT tipa na liniji 8
+INFO  21:51:57,685 - =====================================
+ERROR 21:51:57,685 - Parsiranje NIJE uspesno zavrseno!

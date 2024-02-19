@@ -1,0 +1,57 @@
+INFO  13:01:12,889 - Compiling source file: C:\Users\Ilija\Desktop\PP1\PP_PROJEKAT\pp1Domaci\workspace\MJCompiler\test\program.mj
+INFO  13:01:12,926 - #2 program
+INFO  13:01:12,926 - #46 test301
+INFO  13:01:12,926 - #3 {
+INFO  13:01:12,928 - #10 void
+INFO  13:01:12,928 - #46 main
+INFO  13:01:12,928 - #11 (
+INFO  13:01:12,928 - #12 )
+INFO  13:01:12,929 - #46 int
+INFO  13:01:12,929 - #46 bodovi
+INFO  13:01:12,929 - #21 ;
+INFO  13:01:12,930 - #3 {
+INFO  13:01:12,930 - #4 }
+INFO  13:01:12,930 - #4 }
+INFO  13:01:12,939 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  NoNamesList(
+  ) [NoNamesList]
+  NoCVC(
+  ) [NoCVC]
+  MethDeclList(
+    NoMethDecl(
+    ) [NoMethDecl]
+    MethDecl(
+      TVvoid(
+       main
+      ) [TVvoid]
+      NoFormParsOccured(
+      ) [NoFormParsOccured]
+      VarDeclRepeat(
+        NoVarDeclRepeat(
+        ) [NoVarDeclRepeat]
+        VarDeclaration(
+          IType(
+            IdType(
+             int
+            ) [IdType]
+          ) [IType]
+          VarElemIdent(
+           bodovi
+          ) [VarElemIdent]
+          NoCISLists(
+          ) [NoCISLists]
+        ) [VarDeclaration]
+      ) [VarDeclRepeat]
+      NoStmtListRepeat(
+      ) [NoStmtListRepeat]
+    ) [MethDecl]
+  ) [MethDeclList]
+) [Program]
+INFO  13:01:12,940 - ===================================
+INFO  13:01:12,942 - Deklairsana metoda : main na liniji 6
+INFO  13:01:12,942 - Deklairsana promenljiva : bodovi na liniji 7
+INFO  13:01:12,942 - =====================================
+INFO  13:01:12,943 - Parsiranje uspesno zavrseno!

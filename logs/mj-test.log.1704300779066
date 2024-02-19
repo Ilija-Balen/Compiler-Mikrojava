@@ -1,0 +1,105 @@
+INFO  17:52:17,021 - Compiling source file: C:\Users\Ilija\Desktop\PP1\PP_PROJEKAT\pp1Domaci\workspace\MJCompiler\test\program.mj
+INFO  17:52:17,057 - #2 program
+INFO  17:52:17,057 - #46 p
+INFO  17:52:17,057 - #19 const
+INFO  17:52:17,058 - #46 int
+INFO  17:52:17,058 - #46 row
+INFO  17:52:17,059 - #20 =
+INFO  17:52:17,059 - #45 5
+INFO  17:52:17,059 - #21 ;
+INFO  17:52:17,059 - #3 {
+INFO  17:52:17,060 - #46 int
+INFO  17:52:17,060 - #46 main
+INFO  17:52:17,060 - #11 (
+INFO  17:52:17,060 - #46 int
+INFO  17:52:17,060 - #46 z
+INFO  17:52:17,060 - #12 )
+INFO  17:52:17,061 - #3 {
+INFO  17:52:17,061 - #26 return
+INFO  17:52:17,062 - #45 1
+INFO  17:52:17,062 - #21 ;
+INFO  17:52:17,064 - #4 }
+INFO  17:52:17,064 - #4 }
+INFO  17:52:17,069 - Program(
+  ProgName(
+   p
+  ) [ProgName]
+  NoNamesList(
+  ) [NoNamesList]
+  CDecl(
+    NoCVC(
+    ) [NoCVC]
+    ConstDeclarations(
+      IType(
+        IdType(
+         int
+        ) [IdType]
+      ) [IType]
+     row
+      NCBNumConst(
+       5
+      ) [NCBNumConst]
+      NoNCBLists(
+      ) [NoNCBLists]
+    ) [ConstDeclarations]
+  ) [CDecl]
+  MethDeclList(
+    NoMethDecl(
+    ) [NoMethDecl]
+    MethDecl(
+      TVtype(
+        IType(
+          IdType(
+           int
+          ) [IdType]
+        ) [IType]
+       main
+      ) [TVtype]
+      FormParsOccured(
+        FormParameters(
+          IType(
+            IdType(
+             int
+            ) [IdType]
+          ) [IType]
+          FormElemIdent(
+           z
+          ) [FormElemIdent]
+          NoCTISLists(
+          ) [NoCTISLists]
+        ) [FormParameters]
+      ) [FormParsOccured]
+      NoVarDeclRepeat(
+      ) [NoVarDeclRepeat]
+      StmtListRepeat(
+        NoStmtListRepeat(
+        ) [NoStmtListRepeat]
+        StatementReturn(
+          EOcc(
+            ExprTerm(
+              NoMinusOcc(
+              ) [NoMinusOcc]
+              Term(
+                FactorNumConst(
+                  NumConst(
+                   1
+                  ) [NumConst]
+                ) [FactorNumConst]
+                NoMulopFactorLists(
+                ) [NoMulopFactorLists]
+              ) [Term]
+              NoAddopTermList(
+              ) [NoAddopTermList]
+            ) [ExprTerm]
+          ) [EOcc]
+        ) [StatementReturn]
+      ) [StmtListRepeat]
+    ) [MethDecl]
+  ) [MethDeclList]
+) [Program]
+INFO  17:52:17,069 - ===================================
+INFO  17:52:17,072 - deklarisana konstanta row sa vrednosti 5 na liniji 2 na liniji 2
+INFO  17:52:17,072 - Deklairsana metoda : main na liniji 5
+INFO  17:52:17,072 - Deklairsana promenljiva : z na liniji 5
+ERROR 17:52:17,072 - Semanticka greska na liniji 5: funkcija main nema return iskaz!
+INFO  17:52:17,072 - =====================================

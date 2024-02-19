@@ -1,0 +1,15 @@
+INFO  12:11:26,649 - Compiling source file: C:\Users\Ilija\Desktop\PP1\PP_PROJEKAT\pp1Domaci\workspace\MJCompiler\test\program.mj
+INFO  12:11:26,680 - #2 program
+INFO  12:11:26,680 - #48 MJParser
+INFO  12:11:26,680 - #9 namespace
+INFO  12:11:26,680 - #48 ime
+INFO  12:11:26,680 - #3 {
+INFO  12:11:26,680 - #3 {
+INFO  12:11:26,680 - #4 }
+INFO  12:11:26,681 - #4 }
+INFO  12:11:26,681 - #3 {
+INFO  12:11:26,681 - #4 }
+INFO  12:11:26,681 - #48 bool
+ERROR 12:11:26,681 - 
+Sintaksna greska na liniji 3
+ERROR 12:11:26,681 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 3

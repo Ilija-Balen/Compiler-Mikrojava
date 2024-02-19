@@ -1,0 +1,84 @@
+INFO  15:36:58,367 - Compiling source file: C:\Users\Ilija\Desktop\PP1\PP_PROJEKAT\pp1Domaci\workspace\MJCompiler\test\program.mj
+INFO  15:36:58,402 - #2 program
+INFO  15:36:58,403 - #46 test301
+INFO  15:36:58,403 - #46 mint
+INFO  15:36:58,404 - #46 a
+INFO  15:36:58,404 - #21 ;
+INFO  15:36:58,404 - #3 {
+INFO  15:36:58,405 - #46 int
+INFO  15:36:58,405 - #46 main
+INFO  15:36:58,405 - #11 (
+INFO  15:36:58,405 - #12 )
+INFO  15:36:58,406 - #3 {
+INFO  15:36:58,406 - #26 return
+INFO  15:36:58,407 - #45 1
+INFO  15:36:58,407 - #21 ;
+INFO  15:36:58,408 - #4 }
+INFO  15:36:58,409 - #4 }
+INFO  15:36:58,418 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  NoNamesList(
+  ) [NoNamesList]
+  VDecl(
+    NoCVC(
+    ) [NoCVC]
+    VarDeclaration(
+      IType(
+        IdType(
+         mint
+        ) [IdType]
+      ) [IType]
+      VarElemIdent(
+       a
+      ) [VarElemIdent]
+      NoCISLists(
+      ) [NoCISLists]
+    ) [VarDeclaration]
+  ) [VDecl]
+  MethDeclList(
+    NoMethDecl(
+    ) [NoMethDecl]
+    MethDecl(
+      TVtype(
+        IType(
+          IdType(
+           int
+          ) [IdType]
+        ) [IType]
+       main
+      ) [TVtype]
+      NoFormParsOccured(
+      ) [NoFormParsOccured]
+      NoVarDeclRepeat(
+      ) [NoVarDeclRepeat]
+      StmtListRepeat(
+        NoStmtListRepeat(
+        ) [NoStmtListRepeat]
+        StatementReturn(
+          EOcc(
+            ExprTerm(
+              Term(
+                FactorNumConst(
+                  NumConst(
+                   1
+                  ) [NumConst]
+                ) [FactorNumConst]
+                NoMulopFactorLists(
+                ) [NoMulopFactorLists]
+              ) [Term]
+              NoAddopTermList(
+              ) [NoAddopTermList]
+            ) [ExprTerm]
+          ) [EOcc]
+        ) [StatementReturn]
+      ) [StmtListRepeat]
+    ) [MethDecl]
+  ) [MethDeclList]
+) [Program]
+INFO  15:36:58,419 - ===================================
+ERROR 15:36:58,422 - Greska tip :mint nije pronadjen u tabeli simbola na liniji: 7
+INFO  15:36:58,422 - Deklairsana promenljiva : a na liniji 7
+INFO  15:36:58,422 - Deklairsana metoda : main na liniji 10
+INFO  15:36:58,422 - =====================================

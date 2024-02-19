@@ -1,0 +1,211 @@
+Obj:
+Kind	- Con,Var,Type,Meth,Fld,Elem,prog
+name 	- 
+Type 	- struct node
+next 	- 
+adr 	- za const njihova vr
+level	- nivo ugnjezdavanja
+locals	- 
+
+Struct:
+Kind	- none, int, char, array, bool, class
+elemType- za nizove tip elementa niza, za klase tip roditeljske klase
+n		- broj polja klase
+fields	- clanovi klase
+
+
+
+1 load b … Load
+…, val push(local[b]);
+
+2..5 load_n … Load (n = 0..3)
+…, val push(local[n]);
+
+6 store b …, val Store
+… local[b] = pop();
+
+7..10 store_n …, val Store (n = 0..3)
+… local[n] = pop();
+Instrukcije za load i store globalnih promenljivih
+
+11 getstatic s … Load statičke promenljive
+…, val push(data[s]);
+
+12 putstatic s …, val Store statičke promenljive
+… data[s] = pop();
+Instrukcije za load i store polja objekata
+
+13 getfield s …, adr Load polja objekta
+…, val adr = pop()/4; push(heap[adr+s]);
+
+14 putfield s …, adr, val Store polja objekta
+… val = pop(); adr = pop()/4;
+heap[adr+s] = val;
+Instrukcije za load konstanti
+
+15..20 const_n … Load konstante (n = 0..5)
+…, val push(n)
+
+21 const_m1 … Load konstante ‐1
+…, ‐1 push(‐1)
+
+22 const w … Load konstante
+…, val push(w)
+Aritmetičke operacije
+
+23 add …, val1, val2 Sabiranje
+…, val1+val2 push(pop() + pop());
+
+24 sub …, val1, val2 Oduzimanje
+…, val1‐val2 push(‐pop() + pop());
+
+25 mul …, val1, val2 Množenje
+…, val1*val2 push(pop() * pop());
+
+26 div …, val1, val2 Deljenje
+…, val1/val2 x = pop(); push(pop() / x);
+
+27 rem …, val1, val2 Ostatak pri celobrojnom deljenju
+…, val1%val2 x = pop(); push(pop() % x);
+
+28 neg …, val Promena predznaka
+…, ‐ val push(‐pop());
+
+29 shl …, val Aritmetičko pomeranje ulevo
+…, val1 x = pop(); push(pop() << x);
+
+30 shr …, val Aritmetičko pomeranje udesno
+…, val1 x = pop(); push(pop() >> x);
+
+31 inc b1, b2 … Inkrementiranje
+… local[b1] = local[b1] + b2;
+Pravljenje objekata
+
+32 new s … Novi objekat
+…, adr alocirati oblast od s bajtova;
+inicijalizovati oblast nulama;
+push(adr(oblast));
+
+33 newarray b …, n Novi niz
+…, adr n = pop();
+if (b==0)
+alocirati niz sa n elemenata veličine
+bajta;
+else if (b==1)
+alocirati niz sa n elemenata veličine reči;
+inicijalizovati niz nulama;
+push(adr(niz));
+Pristup nizu
+
+34 aload …, adr, index Load elementa niza (+ provera indeksa)
+…, val i = pop(); adr = pop()/4+1;
+push(heap[adr+i]);
+
+35 astore …, adr, index, val Store elementa niza (+ provera indeksa)
+… val = pop(); i = pop(); adr = pop()/4+1;
+heap[adr+i] = val;
+
+36 baload …, adr, index Load elementa niza bajtova (+ provera indeksa)
+…, val i = pop(); adr = pop()/4+1; x
+= heap[adr+i/4]; push(byte
+i%4 of x);
+
+37 bastore …, adr, index, val Store elementa niza bajtova (+ provera indeksa)
+… val = pop(); i = pop(); adr = pop()/4+1;
+x = heap[adr+i/4];
+set byte i%4 in x;
+heap[adr+i/4] = x;
+
+38 arraylength …, adr Dohvatanje dužine niza
+…, len adr = pop();
+push(heap[adr]);
+Operacije na steku
+
+39 pop …, val Skidanje elementa sa vrha steka
+… dummy = pop();
+
+40 dup …, val Udvajanje elementa na vrhu steka
+…, val, val x = pop(); push(x); push(x);
+
+41 dup2 …, v1, v2 Udvajanje prva dva elementa na vrhu steka
+…, v1, v2, v1, v2 y = pop(); x = pop();
+push(x); push(y); push(x); push(y);
+
+Skokovi
+Adresa skoka je relativna u odnosu na početak instrukcije skoka.
+42 jmp s Bezuslovni skok
+pc = pc + s;
+
+43..48 j<cond> s …, val1, val2 Uslovni skok (eq, ne, lt, le, gt, ge)
+… y = pop(); x = pop();
+if (x cond y) pc = pc + s;
+11
+
+Pozivi metoda (PUSH i POP se odnose na stek procedura)
+49 call s Poziv metode
+PUSH(pc+3); pc := pc + s;
+
+50 return Povratak iz metode
+pc = POP();
+
+51 enter b1, b2 Početak obrade metode
+psize = b1; lsize = b2; // u rečima
+PUSH(fp); fp = sp; sp = sp + lsize;
+inicijalizovati akt. zapis svim
+nulama;
+for (i=psize‐1; i>=0; i‐‐) local[i] = pop();
+
+52 exit Kraj obrade metode
+sp = fp; fp = POP();
+
+Ulaz/Izlaz
+53 read … Operacija čitanja
+…, val readInt(x); push(x);
+// cita sa standardnog ulaza
+
+54 print …, val, width Operacija ispisa
+… width = pop(); writeInt(pop(), width);
+// vrsi ispis na standardni izlaz
+
+55 bread … Operacija čitanja bajta
+…, val readChar(ch); push(ch);
+
+56 bprint …, val, width Operacija ispisa bajta
+… width = pop(); writeChar(pop(), width);
+
+Ostalo
+57 trap b Generiše run time grešku
+zavisno od vrednosti b se ispisuje odgovarajuća
+poruka o grešci;
+prekid izvršavanja;
+
+58 invokevirtual w1,w2,...,wn,wn+1 …, adr Poziv virtuelne metode
+… ime metode ima n znakova;
+ovi znakovi su deo same instrukcije, i nalaze
+se u rečima w1,w2,...,wn;
+reč wn+1 je jednaka -1 i označava kraj
+instrukcije;
+instrukcija prvo ukloni adr sa steka izraza;
+adr je adresa u statičkoj zoni memorije gde
+počinje tabela virtuelnih funkcija za klasu
+objekta čija metoda je pozvana;
+ako se ime metode u instrukciji pronađe u
+tabeli virtuelnih funkcija, instrukcija vrši
+skok na početak tela date metode.
+
+Kombinovani operatori
+59 dup_x1 ..,val2, val1 …,val1, val2, val1
+Umetanje kopije vršne vrednosti ispod druge
+vrednosti sa vrha steka izraza.
+vrednost sa vrha steka se kopira i ubacuje
+ispod druge vrednosti sa vrha steka izraza.
+
+60 dup_x2 val1, val2, val3 …,val3
+, val1, val2, val3
+Umetanje kopije vršne vrednosti ispod
+treće vrednosti sa vrha steka izraza
+.
+… vrednost sa vrha steka se kopira i
+ubacuje ispod treće vrednosti sa
+vrha steka izraza
+.

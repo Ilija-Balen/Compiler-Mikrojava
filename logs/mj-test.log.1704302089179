@@ -1,0 +1,36 @@
+INFO  18:14:23,548 - Compiling source file: C:\Users\Ilija\Desktop\PP1\PP_PROJEKAT\pp1Domaci\workspace\MJCompiler\test\program.mj
+INFO  18:14:23,583 - #2 program
+INFO  18:14:23,583 - #46 p
+INFO  18:14:23,584 - #46 int
+INFO  18:14:23,585 - #46 row
+INFO  18:14:23,585 - #21 ;
+INFO  18:14:23,585 - #3 {
+INFO  18:14:23,586 - #4 }
+INFO  18:14:23,596 - Program(
+  ProgName(
+   p
+  ) [ProgName]
+  NoNamesList(
+  ) [NoNamesList]
+  VDecl(
+    NoCVC(
+    ) [NoCVC]
+    VarDeclaration(
+      IType(
+        IdType(
+         int
+        ) [IdType]
+      ) [IType]
+      VarElemIdent(
+       row
+      ) [VarElemIdent]
+      NoCISLists(
+      ) [NoCISLists]
+    ) [VarDeclaration]
+  ) [VDecl]
+  NoMethDecl(
+  ) [NoMethDecl]
+) [Program]
+INFO  18:14:23,597 - ===================================
+INFO  18:14:23,599 - Deklairsana promenljiva : row na liniji 2
+INFO  18:14:23,599 - =====================================

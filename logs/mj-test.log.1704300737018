@@ -1,0 +1,117 @@
+INFO  17:45:27,206 - Compiling source file: C:\Users\Ilija\Desktop\PP1\PP_PROJEKAT\pp1Domaci\workspace\MJCompiler\test\program.mj
+INFO  17:45:27,269 - #2 program
+INFO  17:45:27,269 - #46 p
+INFO  17:45:27,269 - #19 const
+INFO  17:45:27,270 - #46 int
+INFO  17:45:27,271 - #46 row
+INFO  17:45:27,271 - #20 =
+INFO  17:45:27,271 - #45 5
+INFO  17:45:27,271 - #21 ;
+INFO  17:45:27,272 - #3 {
+INFO  17:45:27,272 - #46 int
+INFO  17:45:27,273 - #46 main
+INFO  17:45:27,273 - #11 (
+INFO  17:45:27,273 - #46 int
+INFO  17:45:27,273 - #46 z
+INFO  17:45:27,273 - #12 )
+INFO  17:45:27,274 - #3 {
+INFO  17:45:27,275 - #46 int
+INFO  17:45:27,275 - #46 r
+ERROR 17:45:27,275 - 
+Sintaksna greska na liniji 6
+INFO  17:45:27,276 - #20 =
+INFO  17:45:27,276 - #46 z
+INFO  17:45:27,276 - #21 ;
+INFO  17:45:27,277 - #26 return
+INFO  17:45:27,277 - #45 1
+INFO  17:45:27,277 - #21 ;
+ERROR 17:45:27,277 - Izvrsen oporavak do ; u liniji 16
+INFO  17:45:27,281 - #4 }
+INFO  17:45:27,281 - #4 }
+INFO  17:45:27,287 - Program(
+  ProgName(
+   p
+  ) [ProgName]
+  NoNamesList(
+  ) [NoNamesList]
+  CDecl(
+    NoCVC(
+    ) [NoCVC]
+    ConstDeclarations(
+      IType(
+        IdType(
+         int
+        ) [IdType]
+      ) [IType]
+     row
+      NCBNumConst(
+       5
+      ) [NCBNumConst]
+      NoNCBLists(
+      ) [NoNCBLists]
+    ) [ConstDeclarations]
+  ) [CDecl]
+  MethDeclList(
+    NoMethDecl(
+    ) [NoMethDecl]
+    MethDecl(
+      TVtype(
+        IType(
+          IdType(
+           int
+          ) [IdType]
+        ) [IType]
+       main
+      ) [TVtype]
+      FormParsOccured(
+        FormParameters(
+          IType(
+            IdType(
+             int
+            ) [IdType]
+          ) [IType]
+          FormElemIdent(
+           z
+          ) [FormElemIdent]
+          NoCTISLists(
+          ) [NoCTISLists]
+        ) [FormParameters]
+      ) [FormParsOccured]
+      NoVarDeclRepeat(
+      ) [NoVarDeclRepeat]
+      StmtListRepeat(
+        StmtListRepeat(
+          NoStmtListRepeat(
+          ) [NoStmtListRepeat]
+          StatementError(
+          ) [StatementError]
+        ) [StmtListRepeat]
+        StatementReturn(
+          EOcc(
+            ExprTerm(
+              NoMinusOcc(
+              ) [NoMinusOcc]
+              Term(
+                FactorNumConst(
+                  NumConst(
+                   1
+                  ) [NumConst]
+                ) [FactorNumConst]
+                NoMulopFactorLists(
+                ) [NoMulopFactorLists]
+              ) [Term]
+              NoAddopTermList(
+              ) [NoAddopTermList]
+            ) [ExprTerm]
+          ) [EOcc]
+        ) [StatementReturn]
+      ) [StmtListRepeat]
+    ) [MethDecl]
+  ) [MethDeclList]
+) [Program]
+INFO  17:45:27,288 - ===================================
+INFO  17:46:11,168 - deklarisana konstanta row sa vrednosti 5 na liniji 2 na liniji 2
+INFO  17:48:16,159 - Deklairsana metoda : main na liniji 5
+INFO  17:49:11,740 - Deklairsana promenljiva : z na liniji 5
+ERROR 17:49:27,402 - Semanticka greska na liniji 5: funkcija main nema return iskaz!
+INFO  17:49:39,232 - =====================================

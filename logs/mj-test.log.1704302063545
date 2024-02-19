@@ -1,0 +1,18 @@
+INFO  18:13:28,550 - Compiling source file: C:\Users\Ilija\Desktop\PP1\PP_PROJEKAT\pp1Domaci\workspace\MJCompiler\test\program.mj
+INFO  18:13:28,585 - #2 program
+INFO  18:13:28,585 - #46 p
+INFO  18:13:28,585 - #3 {
+INFO  18:13:28,586 - #4 }
+INFO  18:13:28,591 - Program(
+  ProgName(
+   p
+  ) [ProgName]
+  NoNamesList(
+  ) [NoNamesList]
+  NoCVC(
+  ) [NoCVC]
+  NoMethDecl(
+  ) [NoMethDecl]
+) [Program]
+INFO  18:13:28,591 - ===================================
+INFO  18:13:28,593 - =====================================

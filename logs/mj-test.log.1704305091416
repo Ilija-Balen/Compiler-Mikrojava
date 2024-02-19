@@ -1,0 +1,38 @@
+INFO  19:02:30,178 - Compiling source file: C:\Users\Ilija\Desktop\PP1\PP_PROJEKAT\pp1Domaci\workspace\MJCompiler\test\program.mj
+INFO  19:02:30,213 - #2 program
+INFO  19:02:30,213 - #46 p
+INFO  19:02:30,213 - #3 {
+INFO  19:02:30,214 - #10 void
+INFO  19:02:30,214 - #46 main
+INFO  19:02:30,214 - #11 (
+INFO  19:02:30,215 - #12 )
+INFO  19:02:30,215 - #3 {
+INFO  19:02:30,215 - #4 }
+INFO  19:02:30,216 - #4 }
+INFO  19:02:30,222 - Program(
+  ProgName(
+   p
+  ) [ProgName]
+  NoNamesList(
+  ) [NoNamesList]
+  NoCVC(
+  ) [NoCVC]
+  MethDeclList(
+    NoMethDecl(
+    ) [NoMethDecl]
+    MethDecl(
+      TVvoid(
+       main
+      ) [TVvoid]
+      NoFormParsOccured(
+      ) [NoFormParsOccured]
+      NoVarDeclRepeat(
+      ) [NoVarDeclRepeat]
+      NoStmtListRepeat(
+      ) [NoStmtListRepeat]
+    ) [MethDecl]
+  ) [MethDeclList]
+) [Program]
+INFO  19:02:30,223 - ===================================
+INFO  19:02:30,224 - Deklairsana metoda : main na liniji 4
+INFO  19:02:30,225 - =====================================

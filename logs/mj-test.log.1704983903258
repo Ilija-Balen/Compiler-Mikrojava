@@ -1,0 +1,84 @@
+INFO  15:37:26,437 - Compiling source file: C:\Users\Ilija\Desktop\PP1\PP_PROJEKAT\pp1Domaci\workspace\MJCompiler\test\program.mj
+INFO  15:37:26,472 - #2 program
+INFO  15:37:26,472 - #46 test301
+INFO  15:37:26,472 - #46 String
+INFO  15:37:26,473 - #46 a
+INFO  15:37:26,473 - #21 ;
+INFO  15:37:26,474 - #3 {
+INFO  15:37:26,474 - #46 int
+INFO  15:37:26,475 - #46 main
+INFO  15:37:26,475 - #11 (
+INFO  15:37:26,475 - #12 )
+INFO  15:37:26,475 - #3 {
+INFO  15:37:26,476 - #26 return
+INFO  15:37:26,476 - #45 1
+INFO  15:37:26,476 - #21 ;
+INFO  15:37:26,478 - #4 }
+INFO  15:37:26,478 - #4 }
+INFO  15:37:26,487 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  NoNamesList(
+  ) [NoNamesList]
+  VDecl(
+    NoCVC(
+    ) [NoCVC]
+    VarDeclaration(
+      IType(
+        IdType(
+         String
+        ) [IdType]
+      ) [IType]
+      VarElemIdent(
+       a
+      ) [VarElemIdent]
+      NoCISLists(
+      ) [NoCISLists]
+    ) [VarDeclaration]
+  ) [VDecl]
+  MethDeclList(
+    NoMethDecl(
+    ) [NoMethDecl]
+    MethDecl(
+      TVtype(
+        IType(
+          IdType(
+           int
+          ) [IdType]
+        ) [IType]
+       main
+      ) [TVtype]
+      NoFormParsOccured(
+      ) [NoFormParsOccured]
+      NoVarDeclRepeat(
+      ) [NoVarDeclRepeat]
+      StmtListRepeat(
+        NoStmtListRepeat(
+        ) [NoStmtListRepeat]
+        StatementReturn(
+          EOcc(
+            ExprTerm(
+              Term(
+                FactorNumConst(
+                  NumConst(
+                   1
+                  ) [NumConst]
+                ) [FactorNumConst]
+                NoMulopFactorLists(
+                ) [NoMulopFactorLists]
+              ) [Term]
+              NoAddopTermList(
+              ) [NoAddopTermList]
+            ) [ExprTerm]
+          ) [EOcc]
+        ) [StatementReturn]
+      ) [StmtListRepeat]
+    ) [MethDecl]
+  ) [MethDeclList]
+) [Program]
+INFO  15:37:26,488 - ===================================
+ERROR 15:37:26,490 - Greska tip :String nije pronadjen u tabeli simbola na liniji: 7
+INFO  15:37:26,490 - Deklairsana promenljiva : a na liniji 7
+INFO  15:37:26,490 - Deklairsana metoda : main na liniji 10
+INFO  15:37:26,491 - =====================================

@@ -1,0 +1,84 @@
+INFO  16:21:52,720 - Compiling source file: C:\Users\Ilija\Desktop\PP1\PP_PROJEKAT\pp1Domaci\workspace\MJCompiler\test\program.mj
+INFO  16:21:52,962 - #2 program
+INFO  16:21:52,962 - #46 p
+INFO  16:21:52,962 - #46 bool
+INFO  16:21:52,969 - #46 a
+INFO  16:21:52,969 - #21 ;
+INFO  16:21:52,972 - #3 {
+INFO  16:21:52,973 - #46 bool
+INFO  16:21:52,975 - #46 main
+INFO  16:21:52,975 - #11 (
+INFO  16:21:52,976 - #12 )
+INFO  16:21:52,978 - #3 {
+INFO  16:21:52,981 - #26 return
+INFO  16:21:52,983 - #48 true
+INFO  16:21:52,983 - #21 ;
+INFO  16:21:52,996 - #4 }
+INFO  16:21:52,996 - #4 }
+INFO  16:21:53,007 - Program(
+  ProgName(
+   p
+  ) [ProgName]
+  NoNamesList(
+  ) [NoNamesList]
+  VDecl(
+    NoCVC(
+    ) [NoCVC]
+    VarDeclaration(
+      IType(
+        IdType(
+         bool
+        ) [IdType]
+      ) [IType]
+      VarElemIdent(
+       a
+      ) [VarElemIdent]
+      NoCISLists(
+      ) [NoCISLists]
+    ) [VarDeclaration]
+  ) [VDecl]
+  MethDeclList(
+    NoMethDecl(
+    ) [NoMethDecl]
+    MethDecl(
+      TVtype(
+        IType(
+          IdType(
+           bool
+          ) [IdType]
+        ) [IType]
+       main
+      ) [TVtype]
+      NoFormParsOccured(
+      ) [NoFormParsOccured]
+      NoVarDeclRepeat(
+      ) [NoVarDeclRepeat]
+      StmtListRepeat(
+        NoStmtListRepeat(
+        ) [NoStmtListRepeat]
+        StatementReturn(
+          EOcc(
+            ExprTerm(
+              Term(
+                FactorBoolConst(
+                  BoolConst(
+                   true
+                  ) [BoolConst]
+                ) [FactorBoolConst]
+                NoMulopFactorLists(
+                ) [NoMulopFactorLists]
+              ) [Term]
+              NoAddopTermList(
+              ) [NoAddopTermList]
+            ) [ExprTerm]
+          ) [EOcc]
+        ) [StatementReturn]
+      ) [StmtListRepeat]
+    ) [MethDecl]
+  ) [MethDeclList]
+) [Program]
+INFO  16:21:53,008 - ===================================
+INFO  16:21:59,138 - Deklairsana promenljiva : a na liniji 2
+INFO  16:22:03,969 - Deklairsana metoda : main na liniji 5
+INFO  16:22:41,434 - =====================================
+INFO  16:22:45,898 - Parsiranje uspesno zavrseno!

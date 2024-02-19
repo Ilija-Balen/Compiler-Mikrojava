@@ -1,0 +1,150 @@
+INFO  18:51:22,702 - Compiling source file: C:\Users\Ilija\Desktop\PP1\PP_PROJEKAT\pp1Domaci\workspace\MJCompiler\test\program.mj
+INFO  18:51:22,761 - #2 program
+INFO  18:51:22,761 - #46 test301
+INFO  18:51:22,761 - #9 namespace
+INFO  18:51:22,762 - #46 Nizovi
+INFO  18:51:22,762 - #3 {
+INFO  18:51:22,763 - #46 int
+INFO  18:51:22,763 - #46 niz
+INFO  18:51:22,764 - #5 [
+INFO  18:51:22,764 - #6 ]
+INFO  18:51:22,764 - #21 ;
+INFO  18:51:22,764 - #46 char
+INFO  18:51:22,765 - #46 nizch
+INFO  18:51:22,765 - #5 [
+INFO  18:51:22,765 - #6 ]
+INFO  18:51:22,765 - #21 ;
+INFO  18:51:22,765 - #3 {
+INFO  18:51:22,765 - #4 }
+INFO  18:51:22,766 - #4 }
+INFO  18:51:22,766 - #3 {
+INFO  18:51:22,766 - #10 void
+INFO  18:51:22,766 - #46 main
+INFO  18:51:22,767 - #11 (
+INFO  18:51:22,767 - #12 )
+INFO  18:51:22,768 - #3 {
+INFO  18:51:22,768 - #46 Nizovi
+INFO  18:51:22,769 - #22 :
+INFO  18:51:22,769 - #22 :
+INFO  18:51:22,769 - #46 niz
+INFO  18:51:22,769 - #5 [
+INFO  18:51:22,769 - #45 0
+INFO  18:51:22,770 - #6 ]
+INFO  18:51:22,772 - #20 =
+INFO  18:51:22,772 - #45 1
+INFO  18:51:22,773 - #21 ;
+INFO  18:51:22,773 - #4 }
+INFO  18:51:22,773 - #4 }
+INFO  18:51:22,781 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  NamesList(
+    NoNamesList(
+    ) [NoNamesList]
+    Names(
+      NamespaceName(
+       Nizovi
+      ) [NamespaceName]
+      VDecl(
+        VDecl(
+          NoCVC(
+          ) [NoCVC]
+          VarDeclaration(
+            IType(
+              IdType(
+               int
+              ) [IdType]
+            ) [IType]
+            VarElemArray(
+             niz
+            ) [VarElemArray]
+            NoCISLists(
+            ) [NoCISLists]
+          ) [VarDeclaration]
+        ) [VDecl]
+        VarDeclaration(
+          IType(
+            IdType(
+             char
+            ) [IdType]
+          ) [IType]
+          VarElemArray(
+           nizch
+          ) [VarElemArray]
+          NoCISLists(
+          ) [NoCISLists]
+        ) [VarDeclaration]
+      ) [VDecl]
+      NoMethDecl(
+      ) [NoMethDecl]
+    ) [Names]
+  ) [NamesList]
+  NoCVC(
+  ) [NoCVC]
+  MethDeclList(
+    NoMethDecl(
+    ) [NoMethDecl]
+    MethDecl(
+      TVvoid(
+       main
+      ) [TVvoid]
+      NoFormParsOccured(
+      ) [NoFormParsOccured]
+      NoVarDeclRepeat(
+      ) [NoVarDeclRepeat]
+      StmtListRepeat(
+        NoStmtListRepeat(
+        ) [NoStmtListRepeat]
+        StatementDesignatorStatement(
+          DesignatorStmtAss(
+            DesignatorIdentDoubleOccured(
+             Nizovi
+             niz
+              IdentExprSQBraceIdent(
+                NoIdentExpr(
+                ) [NoIdentExpr]
+                ExprTerm(
+                  Term(
+                    FactorNumConst(
+                      NumConst(
+                       0
+                      ) [NumConst]
+                    ) [FactorNumConst]
+                    NoMulopFactorLists(
+                    ) [NoMulopFactorLists]
+                  ) [Term]
+                  NoAddopTermList(
+                  ) [NoAddopTermList]
+                ) [ExprTerm]
+              ) [IdentExprSQBraceIdent]
+            ) [DesignatorIdentDoubleOccured]
+            AssEQUAL(
+            ) [AssEQUAL]
+            ExprTerm(
+              Term(
+                FactorNumConst(
+                  NumConst(
+                   1
+                  ) [NumConst]
+                ) [FactorNumConst]
+                NoMulopFactorLists(
+                ) [NoMulopFactorLists]
+              ) [Term]
+              NoAddopTermList(
+              ) [NoAddopTermList]
+            ) [ExprTerm]
+          ) [DesignatorStmtAss]
+        ) [StatementDesignatorStatement]
+      ) [StmtListRepeat]
+    ) [MethDecl]
+  ) [MethDeclList]
+) [Program]
+INFO  18:51:22,781 - ===================================
+INFO  18:51:22,809 - Deklairsan namespace : Nizovi na liniji 5
+INFO  18:51:22,809 - Tip arrType: 1 na liniji 6
+INFO  18:51:22,809 - Deklairsana promenljiva : niz na liniji 6
+INFO  18:51:22,809 - Tip arrType: 2 na liniji 7
+INFO  18:51:22,809 - Deklairsana promenljiva : nizch na liniji 7
+INFO  18:51:22,809 - Deklairsana metoda : main na liniji 13
+INFO  18:51:34,046 - =====================================

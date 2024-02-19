@@ -1,0 +1,109 @@
+INFO  16:39:00,272 - Compiling source file: C:\Users\Ilija\Desktop\PP1\PP_PROJEKAT\pp1Domaci\workspace\MJCompiler\test\program.mj
+INFO  16:39:00,308 - #2 program
+INFO  16:39:00,308 - #46 test301
+INFO  16:39:00,308 - #3 {
+INFO  16:39:00,309 - #10 void
+INFO  16:39:00,310 - #46 main
+INFO  16:39:00,310 - #11 (
+INFO  16:39:00,310 - #12 )
+INFO  16:39:00,310 - #46 int
+INFO  16:39:00,311 - #46 niz
+INFO  16:39:00,311 - #5 [
+INFO  16:39:00,311 - #6 ]
+INFO  16:39:00,311 - #21 ;
+INFO  16:39:00,311 - #3 {
+INFO  16:39:00,312 - #46 niz
+INFO  16:39:00,312 - #20 =
+INFO  16:39:00,313 - #34 new
+INFO  16:39:00,313 - #46 int
+INFO  16:39:00,313 - #5 [
+INFO  16:39:00,314 - #45 3
+INFO  16:39:00,314 - #6 ]
+INFO  16:39:00,315 - #21 ;
+INFO  16:39:00,316 - #4 }
+INFO  16:39:00,316 - #4 }
+INFO  16:39:00,325 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  NoNamesList(
+  ) [NoNamesList]
+  NoCVC(
+  ) [NoCVC]
+  MethDeclList(
+    NoMethDecl(
+    ) [NoMethDecl]
+    MethDecl(
+      TVvoid(
+       main
+      ) [TVvoid]
+      NoFormParsOccured(
+      ) [NoFormParsOccured]
+      VarDeclRepeat(
+        NoVarDeclRepeat(
+        ) [NoVarDeclRepeat]
+        VarDeclaration(
+          IType(
+            IdType(
+             int
+            ) [IdType]
+          ) [IType]
+          VarElemArray(
+           niz
+          ) [VarElemArray]
+          NoCISLists(
+          ) [NoCISLists]
+        ) [VarDeclaration]
+      ) [VarDeclRepeat]
+      StmtListRepeat(
+        NoStmtListRepeat(
+        ) [NoStmtListRepeat]
+        StatementDesignatorStatement(
+          DesignatorStmtAss(
+            DesignatorNoIdentDoubleOccured(
+             niz
+              NoIdentExpr(
+              ) [NoIdentExpr]
+            ) [DesignatorNoIdentDoubleOccured]
+            AssEQUAL(
+            ) [AssEQUAL]
+            ExprTerm(
+              Term(
+                FactorType(
+                  IType(
+                    IdType(
+                     int
+                    ) [IdType]
+                  ) [IType]
+                  ExprTerm(
+                    Term(
+                      FactorNumConst(
+                        NumConst(
+                         3
+                        ) [NumConst]
+                      ) [FactorNumConst]
+                      NoMulopFactorLists(
+                      ) [NoMulopFactorLists]
+                    ) [Term]
+                    NoAddopTermList(
+                    ) [NoAddopTermList]
+                  ) [ExprTerm]
+                ) [FactorType]
+                NoMulopFactorLists(
+                ) [NoMulopFactorLists]
+              ) [Term]
+              NoAddopTermList(
+              ) [NoAddopTermList]
+            ) [ExprTerm]
+          ) [DesignatorStmtAss]
+        ) [StatementDesignatorStatement]
+      ) [StmtListRepeat]
+    ) [MethDecl]
+  ) [MethDeclList]
+) [Program]
+INFO  16:39:00,325 - ===================================
+INFO  16:39:00,328 - Deklairsana metoda : main na liniji 6
+INFO  16:39:00,328 - Tip arrType: 1 na liniji 7
+INFO  16:39:00,328 - Deklairsana promenljiva : niz na liniji 7
+INFO  16:39:00,328 - =====================================
+INFO  16:39:00,332 - Parsiranje uspesno zavrseno!

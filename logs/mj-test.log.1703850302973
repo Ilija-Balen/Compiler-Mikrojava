@@ -1,0 +1,38 @@
+INFO  12:44:58,523 - Compiling source file: C:\Users\Ilija\Desktop\PP1\PP_PROJEKAT\pp1Domaci\workspace\MJCompiler\test\program.mj
+INFO  12:44:58,556 - #2 program
+INFO  12:44:58,557 - #46 p
+INFO  12:44:58,557 - #19 const
+INFO  12:44:58,557 - #46 int
+INFO  12:44:58,558 - #46 row
+INFO  12:44:58,558 - #20 =
+INFO  12:44:58,558 - #45 5
+INFO  12:44:58,558 - #21 ;
+INFO  12:44:58,559 - #3 {
+INFO  12:44:58,559 - #4 }
+INFO  12:44:58,565 - Programs(
+ p
+  NoNamesList(
+  ) [NoNamesList]
+  CDecl(
+    NoCVC(
+    ) [NoCVC]
+    ConstDeclarations(
+      IType(
+        IdType(
+         int
+        ) [IdType]
+      ) [IType]
+     row
+      NCBNumConst(
+        NumConst(
+         5
+        ) [NumConst]
+      ) [NCBNumConst]
+      NoNCBLists(
+      ) [NoNCBLists]
+    ) [ConstDeclarations]
+  ) [CDecl]
+  NoMethDecl(
+  ) [NoMethDecl]
+) [Programs]
+INFO  12:44:58,566 - ===================================

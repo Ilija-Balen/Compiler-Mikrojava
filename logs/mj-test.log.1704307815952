@@ -1,0 +1,87 @@
+INFO  19:49:56,560 - Compiling source file: C:\Users\Ilija\Desktop\PP1\PP_PROJEKAT\pp1Domaci\workspace\MJCompiler\test\program.mj
+INFO  19:49:56,608 - #2 program
+INFO  19:49:56,608 - #46 p
+INFO  19:49:56,608 - #3 {
+INFO  19:49:56,609 - #46 bool
+INFO  19:49:56,609 - #46 main
+INFO  19:49:56,609 - #11 (
+INFO  19:49:56,610 - #12 )
+INFO  19:49:56,610 - #3 {
+INFO  19:49:56,610 - #46 bool
+INFO  19:49:56,611 - #19 const
+ERROR 19:49:56,611 - 
+Sintaksna greska na liniji 6
+INFO  19:49:56,612 - #46 tacno
+INFO  19:49:56,612 - #20 =
+INFO  19:49:56,612 - #47 true
+INFO  19:49:56,613 - #21 ;
+INFO  19:49:56,613 - #26 return
+INFO  19:49:56,613 - #46 tacno
+INFO  19:49:56,613 - #21 ;
+ERROR 19:49:56,613 - Izvrsen oporavak do ; u liniji 1
+INFO  19:49:56,617 - #4 }
+INFO  19:49:56,617 - #4 }
+INFO  19:49:56,629 - Program(
+  ProgName(
+   p
+  ) [ProgName]
+  NoNamesList(
+  ) [NoNamesList]
+  NoCVC(
+  ) [NoCVC]
+  MethDeclList(
+    NoMethDecl(
+    ) [NoMethDecl]
+    MethDecl(
+      TVtype(
+        IType(
+          IdType(
+           bool
+          ) [IdType]
+        ) [IType]
+       main
+      ) [TVtype]
+      NoFormParsOccured(
+      ) [NoFormParsOccured]
+      NoVarDeclRepeat(
+      ) [NoVarDeclRepeat]
+      StmtListRepeat(
+        StmtListRepeat(
+          NoStmtListRepeat(
+          ) [NoStmtListRepeat]
+          StatementError(
+          ) [StatementError]
+        ) [StmtListRepeat]
+        StatementReturn(
+          EOcc(
+            ExprTerm(
+              NoMinusOcc(
+              ) [NoMinusOcc]
+              Term(
+                FactorDesignator(
+                  Designator(
+                    NoIdentDoubleOccured(
+                     tacno
+                    ) [NoIdentDoubleOccured]
+                    NoIdentExpr(
+                    ) [NoIdentExpr]
+                  ) [Designator]
+                  NoBracketActPars(
+                  ) [NoBracketActPars]
+                ) [FactorDesignator]
+                NoMulopFactorLists(
+                ) [NoMulopFactorLists]
+              ) [Term]
+              NoAddopTermList(
+              ) [NoAddopTermList]
+            ) [ExprTerm]
+          ) [EOcc]
+        ) [StatementReturn]
+      ) [StmtListRepeat]
+    ) [MethDecl]
+  ) [MethDeclList]
+) [Program]
+INFO  19:49:56,630 - ===================================
+INFO  19:49:56,632 - Deklairsana metoda : main na liniji 4
+INFO  19:49:56,632 - =====================================
+ERROR 19:49:56,633 - Parsiranje NIJE uspesno zavrseno!
